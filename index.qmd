@@ -1,6 +1,8 @@
 ---
-title: "quarto-course-website"
+title: "R Foundations"
 ---
+
+**This is a work-in-progress website.**
 
 Welcome to the course!
 

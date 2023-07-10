@@ -5,7 +5,7 @@ execute:
   freeze: auto
 
 website:
-  title: "quarto-course-website"
+  title: "R Foundations"
   favicon: images/warwick-university.png
   navbar:
     right:
