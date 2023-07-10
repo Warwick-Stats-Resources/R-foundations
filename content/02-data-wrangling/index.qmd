@@ -1,27 +1,7 @@
 ---
-title: TITLE
-date: last-modified
-draft: true
+title: Data Types, Structures and Wrangling
+date: 2022-10-17
 ---
-
-***This page and the slides for this session are still under development***
-
-## TODO
-
-- Link to this page in schedule
-- Update TITLE
-- Update date
-- Fill in resources
-- change `draft` to `false`
-
-**TODO only if class *hasn't* been created with** `create_class()`:
-
-- Create folder and its contents for slides: 
-  - in Terminal run:
-    `cp -r slides/00-template slides/new-name`
-- Update link to slides in new window
-- Update link to slides in iframe
-- Update title of slides in iframe
 
 ## Slides
 
@@ -34,11 +14,26 @@ Here are the slides embedded:
 
 ## Resources
 
-### Reading
+### R and RStudio
 
-- TITLE
+- [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/){target="_blank"}
 
-  <LINK>
-
+- [R for data science book](https://r4ds.had.co.nz){target="_blank"}
 
 ### Packages
+
+- **dplyr**
+
+  <https://dplyr.tidyverse.org>
+  
+- **forcats**
+
+  <https://forcats.tidyverse.org>
+
+- **ferriswheels**
+
+  <https://github.com/EmilHvitfeldt/ferriswheels>
+  
+- **here**
+
+  <https://here.r-lib.org>
