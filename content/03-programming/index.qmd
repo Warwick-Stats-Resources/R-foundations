@@ -1,27 +1,7 @@
 ---
-title: TITLE
-date: last-modified
-draft: true
+title: Programming in R
+date: 2022-10-31
 ---
-
-***This page and the slides for this session are still under development***
-
-## TODO
-
-- Link to this page in schedule
-- Update TITLE
-- Update date
-- Fill in resources
-- change `draft` to `false`
-
-**TODO only if class *hasn't* been created with** `create_class()`:
-
-- Create folder and its contents for slides: 
-  - in Terminal run:
-    `cp -r slides/00-template slides/new-name`
-- Update link to slides in new window
-- Update link to slides in iframe
-- Update title of slides in iframe
 
 ## Slides
 
@@ -36,9 +16,15 @@ Here are the slides embedded:
 
 ### Reading
 
-- TITLE
+- Efficient Programming, from Efficient R by Colin Gillespie and Robin Lovelace
 
-  <LINK>
+  <https://csgillespie.github.io/efficientR/programming.html>
 
+- Chapters on functions and iteration, from R for Data Science by Hadley Wickham and Garrett Grolemund
 
-### Packages
+  <https://r4ds.had.co.nz/index.html>
+  
+  <https://r4ds.had.co.nz/functions.html>
+
+  <https://r4ds.had.co.nz/iteration.html>
+

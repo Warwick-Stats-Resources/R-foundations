@@ -1,27 +1,9 @@
 ---
-title: TITLE
-date: last-modified
-draft: true
+title: Quarto
+date: 2022-11-28
 ---
 
 ***This page and the slides for this session are still under development***
-
-## TODO
-
-- Link to this page in schedule
-- Update TITLE
-- Update date
-- Fill in resources
-- change `draft` to `false`
-
-**TODO only if class *hasn't* been created with** `create_class()`:
-
-- Create folder and its contents for slides: 
-  - in Terminal run:
-    `cp -r slides/00-template slides/new-name`
-- Update link to slides in new window
-- Update link to slides in iframe
-- Update title of slides in iframe
 
 ## Slides
 
@@ -40,5 +22,3 @@ Here are the slides embedded:
 
   <LINK>
 
-
-### Packages
