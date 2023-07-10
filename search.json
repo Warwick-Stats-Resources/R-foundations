@@ -7,6 +7,27 @@
     "text": "Schedule goes here"
   },
   {
+    "objectID": "content/05-graphics/index.html",
+    "href": "content/05-graphics/index.html",
+    "title": "Graphics",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/05-graphics/index.html#slides",
+    "href": "content/05-graphics/index.html#slides",
+    "title": "Graphics",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/05-graphics/index.html#resources",
+    "href": "content/05-graphics/index.html#resources",
+    "title": "Graphics",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nggplot2: Elegant Graphics for Data Analysis\nhttps://ggplot2-book.org\n\n\n\nPackages\n\nggplot2\nhttps://ggplot2.tidyverse.org"
+  },
+  {
     "objectID": "content/01-intro/index.html",
     "href": "content/01-intro/index.html",
     "title": "Introduction to R and RStudio",
@@ -564,7 +585,7 @@
     "href": "content.html",
     "title": "Content",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nOct 10, 2022\n\n\nIntroduction to R and RStudio\n\n\n\n\nOct 17, 2022\n\n\nData Types, Structures and Wrangling\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nOct 10, 2022\n\n\nIntroduction to R and RStudio\n\n\n\n\nOct 17, 2022\n\n\nData Types, Structures and Wrangling\n\n\n\n\nOct 31, 2022\n\n\nProgramming in R\n\n\n\n\nNov 7, 2022\n\n\nSimulation and Optimisation\n\n\n\n\nNov 21, 2022\n\n\nGraphics\n\n\n\n\nNov 28, 2022\n\n\nQuarto\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -691,5 +712,61 @@
     "title": "SESSION TITLE",
     "section": "License",
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+  },
+  {
+    "objectID": "content/06-quarto/index.html",
+    "href": "content/06-quarto/index.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "This page and the slides for this session are still under development"
+  },
+  {
+    "objectID": "content/06-quarto/index.html#slides",
+    "href": "content/06-quarto/index.html#slides",
+    "title": "Quarto",
+    "section": "Slides",
+    "text": "Slides\nHere’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/06-quarto/index.html#resources",
+    "href": "content/06-quarto/index.html#resources",
+    "title": "Quarto",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nTITLE"
+  },
+  {
+    "objectID": "content/04-sim-optim/index.html",
+    "href": "content/04-sim-optim/index.html",
+    "title": "Simulation and Optimisation",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/04-sim-optim/index.html#slides",
+    "href": "content/04-sim-optim/index.html#slides",
+    "title": "Simulation and Optimisation",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/03-programming/index.html",
+    "href": "content/03-programming/index.html",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/03-programming/index.html#slides",
+    "href": "content/03-programming/index.html#slides",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/03-programming/index.html#resources",
+    "href": "content/03-programming/index.html#resources",
+    "title": "Programming in R",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nEfficient Programming, from Efficient R by Colin Gillespie and Robin Lovelace\nhttps://csgillespie.github.io/efficientR/programming.html\nChapters on functions and iteration, from R for Data Science by Hadley Wickham and Garrett Grolemund\nhttps://r4ds.had.co.nz/index.html\nhttps://r4ds.had.co.nz/functions.html\nhttps://r4ds.had.co.nz/iteration.html"
   }
 ]
