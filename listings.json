@@ -2,7 +2,8 @@
   {
     "listing": "/content.html",
     "items": [
-      "/content/01-intro/index.html"
+      "/content/01-intro/index.html",
+      "/content/02-data-wrangling/index.html"
     ]
   }
 ]

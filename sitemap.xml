@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/content.html</loc>
-    <lastmod>2023-06-27T11:41:19.727Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/Warwick-Stats-Resources/R-foundations/schedule.html</loc>
-    <lastmod>2023-06-27T11:41:19.151Z</lastmod>
+    <lastmod>2023-07-10T11:23:34.577Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/R-foundations/content/01-intro/index.html</loc>
-    <lastmod>2023-06-27T11:41:16.720Z</lastmod>
+    <lastmod>2023-07-10T11:23:33.337Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/05-graphics/index.html</loc>
-    <lastmod>2023-06-27T11:41:15.808Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/02-data-wrangling/index.html</loc>
-    <lastmod>2023-06-27T11:41:15.284Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/04-sim-optim/index.html</loc>
-    <lastmod>2023-06-27T11:41:14.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/index.html</loc>
-    <lastmod>2023-06-27T11:41:10.464Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/01-intro/index.html</loc>
-    <lastmod>2023-06-27T11:41:13.468Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/00-template/index.html</loc>
-    <lastmod>2023-06-27T11:41:15.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/03-programming/index.html</loc>
-    <lastmod>2023-06-27T11:41:15.560Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/06-quarto/index.html</loc>
-    <lastmod>2023-06-27T11:41:16.080Z</lastmod>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/content/02-data-wrangling/index.html</loc>
+    <lastmod>2023-07-10T11:23:32.721Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/R-foundations/prerequisites.html</loc>
-    <lastmod>2023-06-27T11:41:18.900Z</lastmod>
+    <lastmod>2023-07-10T11:23:32.097Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/05-graphics/index.html</loc>
+    <lastmod>2023-07-10T11:23:31.197Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/01-intro/index.html</loc>
+    <lastmod>2023-07-10T11:23:30.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/02-data-wrangling/index.html</loc>
+    <lastmod>2023-07-10T11:23:29.557Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/content.html</loc>
+    <lastmod>2023-07-10T11:23:24.881Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/index.html</loc>
+    <lastmod>2023-07-10T11:23:24.009Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/R-foundations/join.html</loc>
-    <lastmod>2023-06-27T11:41:19.423Z</lastmod>
+    <lastmod>2023-07-10T11:23:24.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/06-quarto/index.html</loc>
+    <lastmod>2023-07-10T11:23:28.269Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/04-sim-optim/index.html</loc>
+    <lastmod>2023-07-10T11:23:29.813Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/03-programming/index.html</loc>
+    <lastmod>2023-07-10T11:23:30.917Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/R-foundations/slides/00-template/index.html</loc>
+    <lastmod>2023-07-10T11:23:31.449Z</lastmod>
   </url>
 </urlset>
