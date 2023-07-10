@@ -43,12 +43,14 @@ Base R graphics are useful for quick, exploratory "no-frills" plots.
 ## Example 1
 
 ```{r}
+#| dpi: 120
 boxplot(penguins$body_mass_g)
 ```
 
 ## Example 2
 
 ```{r}
+#| dpi: 120
 with(penguins, boxplot(body_mass_g ~ species))
 ```
 :::
@@ -59,12 +61,14 @@ with(penguins, boxplot(body_mass_g ~ species))
 ## Histogram
 
 ```{r}
+#| dpi: 120
 hist(penguins$body_mass_g)
 ```
 
 ## Density
 
 ```{r}
+#| dpi: 120
 plot(density(penguins$body_mass_g, na.rm = TRUE))
 ```
 :::
@@ -75,12 +79,14 @@ plot(density(penguins$body_mass_g, na.rm = TRUE))
 ## Vectors
 
 ```{r}
+#| dpi: 120
 plot(1:10, 1:10)
 ```
 
 ## Data frame
 
 ```{r}
+#| dpi: 120
 plot(bill_length_mm ~ bill_depth_mm, 
      data = penguins)
 ```
@@ -99,6 +105,7 @@ e.g. if you call `plot` on an object of type `lm`, it will call `plot.lm`
 ## Linear model diagnostic fits
 
 ```{r}
+#| dpi: 120
 fit <- lm(bill_length_mm ~ bill_depth_mm, 
           data = penguins, subset = species == "Gentoo")
 
