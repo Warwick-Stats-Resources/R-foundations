@@ -2,4 +2,20 @@
 title: "Schedule"
 ---
 
-**Schedule goes here**
+This course is taking place in **Term 1, 2023**. 
+
+The course takes place from **10-11:30 on Tuesdays of even weeks** and **10-11 on Thursdays of odd weeks**. For dates, see the [content](content.qmd) page.
+
+The taught sessions are on the Tuesdays and on Thursday of Week 7. The remaining Thursday slots are drop-in clinics, where you can come with any questions about the course, or for support with R more generally.
+
+| Week | Tues 10-11:30                                                                | Thurs 10-11                            |
+|------|------------------------------------------------------------------------------|----------------------------------------|
+| 2    | [Introduction to R and RStudio](/content/01-intro/index.qmd)                 |                                        |
+| 3    |                                                                              | Clinic                                 |
+| 4    | [Data Types, Structures and Wrangling](/content/02-data-wrangling/index.qmd) |                                        |
+| 5    |                                                                              | Clinic                                 |
+| 6    | [Programming in R](/content/03-programming/index.qmd)                        |                                        |
+| 7    |                                                                              | [Quarto](/content/06-quarto/index.qmd) |
+| 8    | [Simulation and Optimisation](/content/04-sim-optim/index.qmd)               |                                        |
+| 9    |                                                                              | Clinic                                 |
+| 10   | [Graphics](/content/05-graphics/index.qmd)                                   |                                        |
