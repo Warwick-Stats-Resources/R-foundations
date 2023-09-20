@@ -1,75 +1,5 @@
 [
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Schedule goes here"
-  },
-  {
-    "objectID": "content/05-graphics/index.html",
-    "href": "content/05-graphics/index.html",
-    "title": "Graphics",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/05-graphics/index.html#slides",
-    "href": "content/05-graphics/index.html#slides",
-    "title": "Graphics",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/05-graphics/index.html#resources",
-    "href": "content/05-graphics/index.html#resources",
-    "title": "Graphics",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nggplot2: Elegant Graphics for Data Analysis\nhttps://ggplot2-book.org\n\n\n\nPackages\n\nggplot2\nhttps://ggplot2.tidyverse.org"
-  },
-  {
-    "objectID": "content/01-intro/index.html",
-    "href": "content/01-intro/index.html",
-    "title": "Introduction to R and RStudio",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-intro/index.html#slides",
-    "href": "content/01-intro/index.html#slides",
-    "title": "Introduction to R and RStudio",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-intro/index.html#resources",
-    "href": "content/01-intro/index.html#resources",
-    "title": "Introduction to R and RStudio",
-    "section": "Resources",
-    "text": "Resources\n\nR and RStudio\n\nRStudio IDE cheatsheet (11th one down)\nhttps://www.rstudio.com/resources/cheatsheets/\nBeginner resourses from the RStudio Education team\nhttps://education.rstudio.com/learn/beginner/\nIntroduction to R and RStudio from the Carpentries\nhttps://carpentries-incubator.github.io/r-tidyverse-4-datasets/01-project-introduction.html\n\n\n\nPackages\n\ntidyverse\nhttps://www.tidyverse.org\npalmerpenguins\nhttps://allisonhorst.github.io/palmerpenguins/index.html"
-  },
-  {
-    "objectID": "content/02-data-wrangling/index.html",
-    "href": "content/02-data-wrangling/index.html",
-    "title": "Data Types, Structures and Wrangling",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/02-data-wrangling/index.html#slides",
-    "href": "content/02-data-wrangling/index.html#slides",
-    "title": "Data Types, Structures and Wrangling",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/02-data-wrangling/index.html#resources",
-    "href": "content/02-data-wrangling/index.html#resources",
-    "title": "Data Types, Structures and Wrangling",
-    "section": "Resources",
-    "text": "Resources\n\nR and RStudio\n\nRStudio cheatsheets\nR for data science book\n\n\n\nPackages\n\ndplyr\nhttps://dplyr.tidyverse.org\nforcats\nhttps://forcats.tidyverse.org\nferriswheels\nhttps://github.com/EmilHvitfeldt/ferriswheels\nhere\nhttps://here.r-lib.org"
-  },
-  {
     "objectID": "prerequisites.html",
     "href": "prerequisites.html",
     "title": "Prerequisites",
@@ -413,240 +343,205 @@
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
   },
   {
-    "objectID": "slides/01-intro/index.html#overview",
-    "href": "slides/01-intro/index.html#overview",
-    "title": "Introduction to R and RStudio",
+    "objectID": "slides/04-sim-optim/index.html#overview",
+    "href": "slides/04-sim-optim/index.html#overview",
+    "title": "Simulation and Optimisation",
     "section": "Overview",
-    "text": "Overview\n\nWhy use R?\nUse RStudio to write and run R programmes\nCreate and start an R project\nUse install.packages() to install packages\nHow to get help in R\nSee examples of data wrangling and visualisation"
+    "text": "Overview\n\nNumerical precision\nRandom numbers\nSimulation\nOptimisation\n\nThis material is largely reproduced from Ruth Ripley’s 2013 APTS course"
   },
   {
-    "objectID": "slides/01-intro/index.html#what-can-r-do",
-    "href": "slides/01-intro/index.html#what-can-r-do",
-    "title": "Introduction to R and RStudio",
-    "section": "What can R do?",
-    "text": "What can R do?\n\n\n\nData import\nData management and wrangling\nExploratory data analysis\nStatistical modelling\nAdvanced statistics\nMachine learning\n\n\n\nData visualisation\nReports, articles\nDashboards, web apps\nIntegrates well with other languages\nPackages: share your code and use others"
+    "objectID": "slides/04-sim-optim/index.html#how-r-stores-numbers",
+    "href": "slides/04-sim-optim/index.html#how-r-stores-numbers",
+    "title": "Simulation and Optimisation",
+    "section": "How R stores numbers",
+    "text": "How R stores numbers\nSome basic understanding is needed of how R stores and does arithmetic on numbers to avoid being surprised by the results it gives.\nFrom the R FAQ:\n\nThe only numbers that can be represented exactly in R’s numeric type are integers and fractions whose denominator is a power of 2. Other numbers have to be rounded to (typically) 53 binary digits accuracy. As a result, two floating point numbers will not reliably be equal unless they have been computed by the same algorithm, and not always even then."
   },
   {
-    "objectID": "slides/01-intro/index.html#the-r-ecosystem",
-    "href": "slides/01-intro/index.html#the-r-ecosystem",
-    "title": "Introduction to R and RStudio",
-    "section": "The R Ecosystem",
-    "text": "The R Ecosystem\nBase R\n\n\nbase\n\nCreate R objects\nSummaries\nMaths functions\n\n\nrecommended\n\nStatistics\nGraphics\nExample data"
+    "objectID": "slides/04-sim-optim/index.html#example",
+    "href": "slides/04-sim-optim/index.html#example",
+    "title": "Simulation and Optimisation",
+    "section": "Example",
+    "text": "Example\n\na &lt;- sqrt(2)\na * a == 2\n\n[1] FALSE\n\na * a - 2\n\n[1] 4.440892e-16\n\nall.equal(a * a, 2)\n\n[1] TRUE\n\n\nThe function all.equal() compares two objects using a numeric tolerance of .Machine$double.eps^0.5.1 If you want much greater accuracy than this you will need to consider error propagation carefully.\n.Machine$double.eps is the smallest positive floating-point number x such that 1 + x != 1 on the machine R is running on."
   },
   {
-    "objectID": "slides/01-intro/index.html#the-r-ecosystem-1",
-    "href": "slides/01-intro/index.html#the-r-ecosystem-1",
-    "title": "Introduction to R and RStudio",
-    "section": "The R Ecosystem",
-    "text": "The R Ecosystem\nContributed packages\n\n\nCRAN\n\nOfficial R repository\nhttps://cran.r-project.org\nnearly 19000 packages\n\n\nBioconductor\n\nBioinformatics packages\nhttps://www.bioconductor.org\n~2100 packages\n\n\n\nGitHub\n\nPackages in development\nGitHub-only packages"
+    "objectID": "slides/04-sim-optim/index.html#numerical-consideration-resources",
+    "href": "slides/04-sim-optim/index.html#numerical-consideration-resources",
+    "title": "Simulation and Optimisation",
+    "section": "Numerical consideration resources",
+    "text": "Numerical consideration resources\nFor more information, see e.g. \n\nDavid Goldberg (1991), “What Every Computer Scientist Should Know About Floating-Point Arithmetic”, ACM Computing Surveys, 23/1, 5–48, also available via https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html.\nRuth Ripley’s numerical considerations notes for APTS 2013."
   },
   {
-    "objectID": "slides/01-intro/index.html#the-tidyverse",
-    "href": "slides/01-intro/index.html#the-tidyverse",
-    "title": "Introduction to R and RStudio",
-    "section": "The tidyverse",
-    "text": "The tidyverse\nThe tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar and data structures.\n\nFrom https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/"
+    "objectID": "slides/04-sim-optim/index.html#uses-of-simulation",
+    "href": "slides/04-sim-optim/index.html#uses-of-simulation",
+    "title": "Simulation and Optimisation",
+    "section": "Uses of simulation",
+    "text": "Uses of simulation\n\nStatistical models are often mathematically intractable\nGenerate multiple samples for a model by simulation\nUse these samples to investigate the behaviour of the model\nNeed realisations of random variables with various different distributions, our random numbers\nDetails of how to use the random numbers to create samples will not be considered here"
   },
   {
-    "objectID": "slides/01-intro/index.html#palmerpenguins",
-    "href": "slides/01-intro/index.html#palmerpenguins",
-    "title": "Introduction to R and RStudio",
-    "section": "palmerpenguins",
-    "text": "palmerpenguins\n\npalmerpenguins is a dataset package, designed to be a great example for data exploration and visualisation.\nIt contains measurement data for 344 penguins, from three different species, collected from three islands in the Palmer Archipelago, Antarctica.\n\n\nPenguin artwork by Allison Horst https://allisonhorst.github.io/palmerpenguins/articles/art.html"
+    "objectID": "slides/04-sim-optim/index.html#random-number-generation",
+    "href": "slides/04-sim-optim/index.html#random-number-generation",
+    "title": "Simulation and Optimisation",
+    "section": "Random number generation",
+    "text": "Random number generation\n\nRandom numbers calculated on a computer are not random.\nThey are pseudo-random, following a predicted sequence, but in the short-term (i.e. anything but the very long-term) will appear to be random.\nThis is useful, as two sets of random numbers of the same size from the same generator using the same initial value will be exactly the same. This is crucial for reproducibility.\nR provides functions for generating random samples from standard distibutions."
   },
   {
-    "objectID": "slides/01-intro/index.html#the-r-community",
-    "href": "slides/01-intro/index.html#the-r-community",
-    "title": "Introduction to R and RStudio",
-    "section": "The R community",
-    "text": "The R community\nAnother reason to love R is the community around it.\nIt prides itself on being friendly, diverse, helpful, and supportive.\n\nR user groups, especially Warwick RUG\nRLadies, especially RLadies Coventry\nRStudio Community\nR for Data Science\n#RStats and #TidyTuesday on twitter\nRainbowR (LGBTQ+)\nMiR (minorities in R)"
+    "objectID": "slides/04-sim-optim/index.html#random-seeds-in-r",
+    "href": "slides/04-sim-optim/index.html#random-seeds-in-r",
+    "title": "Simulation and Optimisation",
+    "section": "Random seeds in R",
+    "text": "Random seeds in R\n\nEach time a random number is required, R will use and update a variable called .Random.seed which is in your workspace.\nAt the first use, if .Random.seed does not exist, one will be created, with a value generated from the time.\nThe function set.seed(n) will set .Random.seed to a value derived from the argument n.\nUse set.seed() to repeat the same sequence of random numbers."
   },
   {
-    "objectID": "slides/01-intro/index.html#at-first",
-    "href": "slides/01-intro/index.html#at-first",
-    "title": "Introduction to R and RStudio",
-    "section": "At first",
-    "text": "At first"
+    "objectID": "slides/04-sim-optim/index.html#random-number-generators-in-r",
+    "href": "slides/04-sim-optim/index.html#random-number-generators-in-r",
+    "title": "Simulation and Optimisation",
+    "section": "Random number generators in R",
+    "text": "Random number generators in R\n\nThere are various different generators available. R will use the one in use at the start of your session unless you alter it, even if you delete .Random.seed. For safety, you can specify the kind on calls to set.seed. Use set.seed(n, kind=\"default\") to ensure you are using R’s default.\nIt is possible to save and restore .Random.seed within your functions, but take care with scope (see next term!).\nNote that random number generation changed in R version 4.0.0, so you might get different outputs even with the same seed when using versions before and after this release."
   },
   {
-    "objectID": "slides/01-intro/index.html#with-script",
-    "href": "slides/01-intro/index.html#with-script",
-    "title": "Introduction to R and RStudio",
-    "section": "With script",
-    "text": "With script"
+    "objectID": "slides/04-sim-optim/index.html#set.seed-example",
+    "href": "slides/04-sim-optim/index.html#set.seed-example",
+    "title": "Simulation and Optimisation",
+    "section": "set.seed() example",
+    "text": "set.seed() example\n\nsample(10)\n\n [1]  5  3  8  2  1 10  7  4  6  9\n\nset.seed(1)\nsample(10)\n\n [1]  9  4  7  1  2  5  3 10  6  8\n\nsample(10)\n\n [1]  3  1  5  8  2  6 10  9  4  7\n\nset.seed(1)\nsample(10)\n\n [1]  9  4  7  1  2  5  3 10  6  8"
   },
   {
-    "objectID": "slides/01-intro/index.html#best-practice-use-r-projects",
-    "href": "slides/01-intro/index.html#best-practice-use-r-projects",
-    "title": "Introduction to R and RStudio",
-    "section": "Best practice: use R projects",
-    "text": "Best practice: use R projects\nAn RStudio project is a contect for working on a specific project\n\nKeeps files well-organised\nAutomatically sets working directory to project root\nHas separate workspace and command history\nWorks well with version control via git or svn"
+    "objectID": "slides/04-sim-optim/index.html#sample",
+    "href": "slides/04-sim-optim/index.html#sample",
+    "title": "Simulation and Optimisation",
+    "section": "sample()",
+    "text": "sample()\nThe sample() function re-samples from a data vector, with or without replacement.\nsample(x, size, replace = FALSE, prob = NULL)\n\n\n\n\n\n\n\nx\npositive integer or a vector\n\n\nsize\nnon-negative integer, number of items to choose\n\n\nreplace\nlogical - should sampling be with replacement\n\n\nprob\na vector of probability weights for obtaining the elements of the vector being sampled."
   },
   {
-    "objectID": "slides/01-intro/index.html#getting-started-with-projects",
-    "href": "slides/01-intro/index.html#getting-started-with-projects",
-    "title": "Introduction to R and RStudio",
-    "section": "Getting started with projects",
-    "text": "Getting started with projects\n\nCreate a project from a new or existing directory via the file menu or new project button\nSwitch project, or open a different project in a new RStudio instance via the project menu"
+    "objectID": "slides/04-sim-optim/index.html#sample-examples",
+    "href": "slides/04-sim-optim/index.html#sample-examples",
+    "title": "Simulation and Optimisation",
+    "section": "sample() examples",
+    "text": "sample() examples\n\nsample(n)sample(x)sample(x, replace = TRUE)sample(x, size = n)sample(x, n, replace = TRUE)sample(x, n, replace = TRUE, prob = probs)\n\n\nA random permutation of 1, …, n\n\nset.seed(123)\nsample(10)\n\n [1]  3 10  2  8  6  9  1  7  5  4\n\n\nSee also sample.int():\n\nset.seed(123)\nsample.int(10)\n\n [1]  3 10  2  8  6  9  1  7  5  4\n\n\n\n\nA random permutation of x for length(x) &gt; 1\n\nset.seed(10)\nalph5 &lt;- LETTERS[1:5]\nsample(alph5)\n\n[1] \"C\" \"A\" \"B\" \"E\" \"D\"\n\n\n\n\nA bootstrap sample\n\nset.seed(10)\nsample(alph5, replace = TRUE)\n\n[1] \"C\" \"A\" \"B\" \"D\" \"C\"\n\n\n\n\nSample n items from x without replacement\n\nset.seed(10)\nsample(alph5, 3)\n\n[1] \"C\" \"A\" \"B\"\n\n\n\n\nSample n items from x with replacement\n\nset.seed(1)\nsample(alph5, 3, replace = TRUE)\n\n[1] \"A\" \"D\" \"A\"\n\n\n\n\nProbability sample of n items from x\n\nx &lt;- 1:4\nprobs &lt;- c(1/2, 1/3, 1/12, 1/12)\n\nset.seed(1)\nsamp &lt;- sample(x, 100, replace = TRUE, prob = probs)\ntable(samp)\n\nsamp\n 1  2  3  4 \n52 34 10  4"
   },
   {
-    "objectID": "slides/01-intro/index.html#rstudio-project-demo",
-    "href": "slides/01-intro/index.html#rstudio-project-demo",
-    "title": "Introduction to R and RStudio",
-    "section": "RStudio project demo",
-    "text": "RStudio project demo\n\nCreate R-Foundations project\nCreate first script"
+    "objectID": "slides/04-sim-optim/index.html#distributions-in-r",
+    "href": "slides/04-sim-optim/index.html#distributions-in-r",
+    "title": "Simulation and Optimisation",
+    "section": "Distributions in R",
+    "text": "Distributions in R\nMany statistical distributions are built into R. Each has a root name, e.g. norm for the normal distribution.\nThere are four functions for each distribution, with different letters prefixing the room name:\n\np for probability, the cumulative distribution function\nq for quantile, the inverse c.d.f.\nd for density, the density function, p.d.f.\nr for random, a random sample from the distribution.\n\nSo, for the normal distribution, we have the functions pnorm, qnorm, dnorm, rnorm."
   },
   {
-    "objectID": "slides/01-intro/index.html#using-the-console",
-    "href": "slides/01-intro/index.html#using-the-console",
-    "title": "Introduction to R and RStudio",
-    "section": "Using the console",
-    "text": "Using the console\n\nFor things that only need doing once, e.g. installing packages\nFor doing things you don’t need to track, e.g. requesting help files\nTo quickly explore new ideas before adding them to a script"
+    "objectID": "slides/04-sim-optim/index.html#distributions-and-parameterisations",
+    "href": "slides/04-sim-optim/index.html#distributions-and-parameterisations",
+    "title": "Simulation and Optimisation",
+    "section": "Distributions and parameterisations",
+    "text": "Distributions and parameterisations\n\n\n\n\n\nDistribution\nBase name\nParameters\n\n\n\n\nbeta\nbeta\nshape1, shape2\n\n\nbinomial\nbinom\nsize, prob\n\n\nCauchy\ncauchy\nlocation, scale\n\n\nchi-squared\nchisq\ndf\n\n\nexponential\nexp\nrate\n\n\nF\nf\ndf1, df2\n\n\ngamma\ngamma\nshape, rate\n\n\ngeometric\ngeom\np\n\n\nhypergeometric\nhyper\nm, n, k\n\n\nlog-normal\nlnorm\nmeanlog, sdlog\n\n\nlogistic\nlogis\nlocation, scale\n\n\nnegative binomial\nnbinom\nsize, prob\n\n\nnormal\nnorm\nmean, sd\n\n\nPoisson\npois\nlambda\n\n\nStudent t\nt\ndf\n\n\nuniform\nunif\nmin, max\n\n\nWeibull\nweibull\nshape, scale"
   },
   {
-    "objectID": "slides/01-intro/index.html#using-the-console-shortcuts",
-    "href": "slides/01-intro/index.html#using-the-console-shortcuts",
-    "title": "Introduction to R and RStudio",
-    "section": "Using the console: shortcuts",
-    "text": "Using the console: shortcuts\nRStudio provides a few shortcuts to help write code in the R console\n\n↑/↓ go back/forward through history one command at a time\nCtrl/⌘ + ↑ review recent history and select command\nTab view possible completions for part-written expression\n\nCode completion (using Tab) is also provided in the source editor"
+    "objectID": "slides/04-sim-optim/index.html#generating-random-samples-from-a-distibution",
+    "href": "slides/04-sim-optim/index.html#generating-random-samples-from-a-distibution",
+    "title": "Simulation and Optimisation",
+    "section": "Generating random samples from a distibution",
+    "text": "Generating random samples from a distibution\nTo obtain a sample of size n, use the r function for the distribution with the first argument n, and subsequent arguments the parameters for that distribution. The parameters often have default values. E.g.\n\n\n\n\n\n\n\nrunif(n, min=0, max=1)\nUniform\n\n\nrnorm(n, mean=0, sd=1)\nNormal\n\n\nrexp(n, rate=1)\nExponential with mean 1/rate\n\n\nrt(n, df)\nt with df degrees of freedom\n\n\nrbinom(n, size, prob)\nBinomial, success in size trials with probability of success prob\n\n\n\nTable from https://www.johndcook.com/blog/distributions_r_splus/"
   },
   {
-    "objectID": "slides/01-intro/index.html#using-the-console-demo",
-    "href": "slides/01-intro/index.html#using-the-console-demo",
-    "title": "Introduction to R and RStudio",
-    "section": "Using the console: demo",
-    "text": "Using the console: demo\n1 + 1\n?log\nlog(10)\nexp(-4 * 4 / 2) / sqrt(2 * pi)\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")"
+    "objectID": "slides/04-sim-optim/index.html#your-yurn",
+    "href": "slides/04-sim-optim/index.html#your-yurn",
+    "title": "Simulation and Optimisation",
+    "section": "Your yurn!",
+    "text": "Your yurn!\nSometimes sample() can lead to nasty surprises.\nConsider the following code. Which line might cause a problem?\n\nx &lt;- 1:10\nsample(x[x &gt; 8])\nsample(x[x &gt; 9])\nsample(x[x &gt; 10])\n\nRun the code to see what happens.\n\n\n\n\nWarning\n\n\nYou need to be careful when using sample() programmatically (i.e. in your function or simulation).\nSee ?sample for a safer version and check you understand how the proposed resample() function works."
   },
   {
-    "objectID": "slides/01-intro/index.html#using-scripts",
-    "href": "slides/01-intro/index.html#using-scripts",
-    "title": "Introduction to R and RStudio",
-    "section": "Using scripts",
-    "text": "Using scripts\nText files saved with an .R suffix are recognised as R code\nCode can be sent directly from a script to the console as follows:\n\nCtrl/⌘ + ↵ or  run current line\n\nRun multiple lines by selecting first\n\nCtrl/⌘ + Shift + ↵ or \n\nRun the script from start to finish."
+    "objectID": "slides/04-sim-optim/index.html#the-optimisation-problem",
+    "href": "slides/04-sim-optim/index.html#the-optimisation-problem",
+    "title": "Simulation and Optimisation",
+    "section": "The optimisation problem",
+    "text": "The optimisation problem\n\nGiven a function \\(f(x)\\), what value of \\(x\\) makes \\(f(x)\\) as small or large as possible?\nIn a statistical context, \\(x\\) will usually be the parameters of a model, and \\(f(x)\\) either the model likelihood to be maximised or some measure of discrepancy between data and predictions to be minimised.\nThe optimal set of parameters will give the best fit\nOnly need to consider small as \\(-f(x)\\) is large when \\(f(x)\\) is small.\nWe consider here general-purpose optimisers"
   },
   {
-    "objectID": "slides/01-intro/index.html#why-r-scripts",
-    "href": "slides/01-intro/index.html#why-r-scripts",
-    "title": "Introduction to R and RStudio",
-    "section": "Why R scripts",
-    "text": "Why R scripts\nWriting an R script for an analysis has several advantages over a graphical user interface (GUI)\n\nIt provides a record of the exact approach used in an analysis\nIt enables the analysis to be easily reproduced and modified\nIt allows greater control"
+    "objectID": "slides/04-sim-optim/index.html#local-and-global-minima",
+    "href": "slides/04-sim-optim/index.html#local-and-global-minima",
+    "title": "Simulation and Optimisation",
+    "section": "Local and global minima",
+    "text": "Local and global minima\n\nThe (negative of the) likelihood for the General Linear Model (and that for many other linear models) is well-behaved: it has a single, global minimum.\nFor more complicated models there may be many local minima.\nFinding a global minimum is difficult, and not always important. Only if local minima are widely separated in parameter space are they likely to invalidate our conclusions.\nWe will concentrate on methods of finding local minima. Check for different local minima by altering the initial values, algorithm used, or other parameters of the fitting process."
   },
   {
-    "objectID": "slides/01-intro/index.html#good-practice-for-r-scripts",
-    "href": "slides/01-intro/index.html#good-practice-for-r-scripts",
-    "title": "Introduction to R and RStudio",
-    "section": "Good practice for R Scripts",
-    "text": "Good practice for R Scripts\nOrganising your R script well will help you and others understand and use it.\n\nAdd comment or two at start to describe purpose of script\nLoad required data and packages at the start\nAvoid hard-coding: define variables such as file paths early on\nGive functions and variable meaningful names\nuse ### or #--- to separate sections (in RStudio Code &gt; Insert Section)"
+    "objectID": "slides/04-sim-optim/index.html#univariate-optimisation",
+    "href": "slides/04-sim-optim/index.html#univariate-optimisation",
+    "title": "Simulation and Optimisation",
+    "section": "Univariate optimisation",
+    "text": "Univariate optimisation\noptimize (or optimise) finds a (possibly local) mimimum of a function in a specified interval with respect to its first argument.\n\nFunction to be minimised is the first argument to optimize\nCan pre-specify the function or include it in the command."
   },
   {
-    "objectID": "slides/01-intro/index.html#r-script-demo",
-    "href": "slides/01-intro/index.html#r-script-demo",
-    "title": "Introduction to R and RStudio",
-    "section": "R script demo",
-    "text": "R script demo\n### load libraries\nlibrary(palmerpenguins)\nlibrary(tidyverse)\n\n### Inspect data\nView(penguins)\nglimpse(penguins)\nhead(penguins)\nsummary(penguins)"
+    "objectID": "slides/04-sim-optim/index.html#univariate-optimisation-example",
+    "href": "slides/04-sim-optim/index.html#univariate-optimisation-example",
+    "title": "Simulation and Optimisation",
+    "section": "Univariate optimisation: example",
+    "text": "Univariate optimisation: example\n\nf &lt;- function(x, a) {\n  (x - a)^2\n}\n\nxmin &lt;- optimize(f, interval = c(0, 1), a = 1/3)\n\n# or\n\nxmin &lt;- optimize(function(x, a) {(x - a)^2}, \n                 interval = c(0, 1), a = 1/3)\n\nxmin\n\n$minimum\n[1] 0.3333333\n\n$objective\n[1] 0\n\n\nNote how the (fixed) parameter a is passed into f."
   },
   {
-    "objectID": "slides/01-intro/index.html#installing-packages",
-    "href": "slides/01-intro/index.html#installing-packages",
-    "title": "Introduction to R and RStudio",
-    "section": "Installing packages",
-    "text": "Installing packages\nIn console\n\nInstall a package with install.packages(\"package_name\")\n\nWatch out for the plural!\n\nInstall multiple packages with install.packages(c(\"package1\", \"package2\"))\n\nThe c() function creates a vector\n\nOr use install button in packages pane:"
+    "objectID": "slides/04-sim-optim/index.html#other-optimize-arguments",
+    "href": "slides/04-sim-optim/index.html#other-optimize-arguments",
+    "title": "Simulation and Optimisation",
+    "section": "Other optimize() arguments",
+    "text": "Other optimize() arguments\n\n\nAn interval within which to search must be specified, either by interval or by upper and lower\nTo maximise set maximum = TRUE\nAccuracy can be set using the tol argument\nNote the order of arguments: `optimize(f, interval, …, lower, upper, maximum, tol)\nThe ... can be named or unnamed and will be passed to f\nArguments after the ... must be specified by names.\noptimize returns a list with two items:\n\nminimum: the value of x at which f(x) is minimised\nobjective: the value of f(x) at x = minimum"
   },
   {
-    "objectID": "slides/01-intro/index.html#loading-packages",
-    "href": "slides/01-intro/index.html#loading-packages",
-    "title": "Introduction to R and RStudio",
-    "section": "Loading packages",
-    "text": "Loading packages\nIn script\n\nLoad packages with library(package_name)"
+    "objectID": "slides/04-sim-optim/index.html#general-optimisation",
+    "href": "slides/04-sim-optim/index.html#general-optimisation",
+    "title": "Simulation and Optimisation",
+    "section": "General optimisation",
+    "text": "General optimisation\n\nIn more than one dimension the problem is harder.\nR has several different functions: most flexible is optim() which includes several different algorithms.\nAlgorithm of choice depends on how easy it is to calculate derivatives for the function. Usually better to supply a function to calculate derivatives, but may be unnecessary extra work.\nEnsure the problem is scaled so that unit change in any parameter gives approximately unit change in objective."
   },
   {
-    "objectID": "slides/01-intro/index.html#within-r-help-with-functions",
-    "href": "slides/01-intro/index.html#within-r-help-with-functions",
-    "title": "Introduction to R and RStudio",
-    "section": "Within R: Help with functions",
-    "text": "Within R: Help with functions\n\n# help with a specific function\nhelp(function_name)\n?function_name\n\n# quick reminder of the function arguments\narg(function_name)\n\n# see an example\nexample(function_name)\n\n# see the source code\n## in console\nfunction_name\n## in View pane (easier to read, syntax highlighting)\nView(function_name)"
+    "objectID": "slides/04-sim-optim/index.html#optim-mmethods",
+    "href": "slides/04-sim-optim/index.html#optim-mmethods",
+    "title": "Simulation and Optimisation",
+    "section": "optim() M=methods",
+    "text": "optim() M=methods\n\nNelder-MeadBFGSCGL-BFGS-BSANNBrent\n\n\n\nThe default method\nBasic idea: for a function with n parameters, choose a polygon with n+1 vertices. At each step, alter vertex with minimum f(x) to improve the objective function, by reflection, expansion or contraction\nDoes not use derivative information\nUseful for non-differentiable functions\nMay be rather slow\n\n\n\n\nA quasi-Newton method: builds up approximation to Hessian matrix from gradients at start and finish of steps\nUses the approximation to choose new search direction\nPerforms line search in this direction\nUpdate term for the Hessian approximation is due to Broyden, Fletcher, Goldfarb and Shanno (proposed separately by all four in 1970)\nUses derivative information, calculated either from a user-supplied function or by finite differences\nIf dimension is large, the matrix stored may be very large\n\n\n\n\nA conjugate gradient method: chooses successive search directions that are analogous to axes of an ellipse\nDoes not store a Hessian matrix\nThree different formulae for the search directions are implemented: Fletcher-Reeves, Polak-Ribiere or Beale-Sorenson\nLess robust than BFGS method\nUses derivative information, calculated either from a user-supplied function or by finite differences\n\n\n\n\nA limited memory version of BFGS\nDoes not store a Hessian matrix, only a limited number of update steps for it\nUses derivative information, calculated either from a user-supplied function or by finite differences\nCan restrict the solution to lie within a “box”, the only method of optim() that can do this\n\n\n\n\nA variant of simulated annealing A stochastic algorithm\nAccepts changes which increase the objective with positive probability (when minimising!)\nDoes not use derivative information\nCan be very slow to converge but may find a ‘good’ solution quickly\n\n\n\n\nAn interface to optimize()\nOnly for use with one dimensional problems\nIncluded for use inside other functions where only method can be specified, not the function to be used."
   },
   {
-    "objectID": "slides/01-intro/index.html#within-r-help.search",
-    "href": "slides/01-intro/index.html#within-r-help.search",
-    "title": "Introduction to R and RStudio",
-    "section": "Within R: help.search",
-    "text": "Within R: help.search\n\n# when ?function_name fails (e.g. don't have library loaded)\nhelp.search(\"function_name\") # note quotation marks\n??function_name\n\n# for when you can't quite remember the function name\n??something_like_function_name\n\n# R help start page\nhelp.start()\n## note that using the RStudio Help home button gives even more resources"
+    "objectID": "slides/04-sim-optim/index.html#how-to-use-optim",
+    "href": "slides/04-sim-optim/index.html#how-to-use-optim",
+    "title": "Simulation and Optimisation",
+    "section": "How to use optim()",
+    "text": "How to use optim()\noptim(par, fn, gr=NULL, ..., method=c(\"Nelder-Mead\", \"BFGS\", \"CG\", \"L-BFGS-B\", \"SANN\", \"Brent\"), lower=-Inf, upper=Inf, control=list(), hessian=FALSE)\n\n\n\n\n\n\n\npar\nstarting values of the parameters\n\n\nfn\nfunction to be optimised (supply as for optimize)\n\n\ngr\nfunction to calculate the derivative, only relevant for methods “BFGS”, “CG” or “L-BFGS-B”\n\n\n…\nother parameters for (both) fn and gr\n\n\nmethod\nalgorithm to use\n\n\nlower, upper\nvector of limits for parameters (only allowed it method=\"L-BFGS-B\"\n\n\ncontrol\ncontrol options (see next slide)\n\n\nhessian\nlogical: whether to return a hessian estimate calculated by finite differences"
   },
   {
-    "objectID": "slides/01-intro/index.html#within-r-help-with-package",
-    "href": "slides/01-intro/index.html#within-r-help-with-package",
-    "title": "Introduction to R and RStudio",
-    "section": "Within R: Help with package",
-    "text": "Within R: Help with package\n\n# `help`\nhelp(package = \"package_name\")\n# Help panel in RStudio will give links to all documentation\n# and help pages for that package\n\n# find/browse vignettes for installed (or specific) packages\nbrowseVignettes()\nbrowseVignettes(\"package_name\")\n\n# use auto-completion in RStudio to see what functions \n# are in a package\n?package::\n\ndplyr demo\nRStudio Help home demo"
+    "objectID": "slides/04-sim-optim/index.html#optim-control-options",
+    "href": "slides/04-sim-optim/index.html#optim-control-options",
+    "title": "Simulation and Optimisation",
+    "section": "optim(): control options",
+    "text": "optim(): control options\nThere are very many. The most important are:\n\n\n\n\n\n\n\ntrace\nA positive integer: higher values give more information\n\n\nfnscale\nAn overall scaling: if negative, maximisation will be performed\n\n\nparscale\nA vector of scalings for the parameters\n\n\nmaxit\nMaximum number of iterations to be performed. May be used to terminate unsuccessful attempts. Also used to perform one or two steps if convergence is unimportant\n\n\ntype\nUsed to select formula for “CG” method"
   },
   {
-    "objectID": "slides/01-intro/index.html#your-turn",
-    "href": "slides/01-intro/index.html#your-turn",
-    "title": "Introduction to R and RStudio",
-    "section": "Your turn",
-    "text": "Your turn\n\nCreate an R project called “R-foundations”\nInstall the packages palmerpenguins and tidyverse\nFind the help page for the penguins dataset\nFind the help page for the filter function in the dplyr package\nExperiment typing commands into the console or in an R script.\n\nlink to slides"
+    "objectID": "slides/04-sim-optim/index.html#optim-components-of-return-value",
+    "href": "slides/04-sim-optim/index.html#optim-components-of-return-value",
+    "title": "Simulation and Optimisation",
+    "section": "optim(): Components of Return Value",
+    "text": "optim(): Components of Return Value\n\n\n\n\n\n\n\npar\nbest set of parameters\n\n\nvalue\nvalue of fn corresponding to par\n\n\ncounts\nnumber of calls to fn and gr: excludes calls for purposes of approximating derivatives or Hessian\n\n\nconvergence\nerror code: 0=success, 1=maxit reached, 10=degeneracy of Nelder-Mead simplex, 51=warning from “L-BFGS-B”, 52=error from “L-BFGS-B”\n\n\nmessage\nfurther information, if any\n\n\nhessian\nif requested, a symmetric matrix estimate of the Hessian at the solution"
   },
   {
-    "objectID": "slides/01-intro/index.html#the-data",
-    "href": "slides/01-intro/index.html#the-data",
-    "title": "Introduction to R and RStudio",
-    "section": "The data",
-    "text": "The data\n\n\nlibrary(palmerpenguins)\nlibrary(tidyverse)\n\n\npenguins\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750\n 2 Adelie  Torgersen           39.5          17.4               186        3800\n 3 Adelie  Torgersen           40.3          18                 195        3250\n 4 Adelie  Torgersen           NA            NA                  NA          NA\n 5 Adelie  Torgersen           36.7          19.3               193        3450\n 6 Adelie  Torgersen           39.3          20.6               190        3650\n 7 Adelie  Torgersen           38.9          17.8               181        3625\n 8 Adelie  Torgersen           39.2          19.6               195        4675\n 9 Adelie  Torgersen           34.1          18.1               193        3475\n10 Adelie  Torgersen           42            20.2               190        4250\n# ℹ 334 more rows\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;"
+    "objectID": "slides/04-sim-optim/index.html#your-turn-q1",
+    "href": "slides/04-sim-optim/index.html#your-turn-q1",
+    "title": "Simulation and Optimisation",
+    "section": "Your turn! Q1",
+    "text": "Your turn! Q1\n\nfw &lt;- function (x) {\n    10*sin(0.3*x)*sin(1.3*x^2) + 0.00001*x^4 + 0.2*x+80\n}\n\n\n\nUse optim() to find a global minimum\nUse optim() again to improve locally (aiming for -15.81515)"
   },
   {
-    "objectID": "slides/01-intro/index.html#how-many-of-each-species",
-    "href": "slides/01-intro/index.html#how-many-of-each-species",
-    "title": "Introduction to R and RStudio",
-    "section": "How many of each species?",
-    "text": "How many of each species?\n\ncount(penguins, species)\n\n# A tibble: 3 × 2\n  species       n\n  &lt;fct&gt;     &lt;int&gt;\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124"
+    "objectID": "slides/04-sim-optim/index.html#your-turn-q2",
+    "href": "slides/04-sim-optim/index.html#your-turn-q2",
+    "title": "Simulation and Optimisation",
+    "section": "Your turn! Q2",
+    "text": "Your turn! Q2\n\nTake a look at the introduction to the Wikipedia page for Rosenbrock’s banana function\nCopy this code for the fn and gr\n\n\nfr &lt;- function(x) {   \n    x1 &lt;- x[1]\n    x2 &lt;- x[2]\n    100 * (x2 - x1 * x1)^2 + (1 - x1)^2\n}\n\ngr &lt;- function(x) { \n    x1 &lt;- x[1]\n    x2 &lt;- x[2]\n    c(-400 * x1 * (x2 - x1 * x1) - 2 * (1 - x1),\n       200 *      (x2 - x1 * x1))\n}\n\n\nExperiment with the optim() function to see which methods converge"
   },
   {
-    "objectID": "slides/01-intro/index.html#how-many-of-each-species-on-each-island",
-    "href": "slides/01-intro/index.html#how-many-of-each-species-on-each-island",
-    "title": "Introduction to R and RStudio",
-    "section": "How many of each species on each island?",
-    "text": "How many of each species on each island?\n\ncount(penguins, species, island, .drop = FALSE)\n\n# A tibble: 9 × 3\n  species   island        n\n  &lt;fct&gt;     &lt;fct&gt;     &lt;int&gt;\n1 Adelie    Biscoe       44\n2 Adelie    Dream        56\n3 Adelie    Torgersen    52\n4 Chinstrap Biscoe        0\n5 Chinstrap Dream        68\n6 Chinstrap Torgersen     0\n7 Gentoo    Biscoe      124\n8 Gentoo    Dream         0\n9 Gentoo    Torgersen     0"
-  },
-  {
-    "objectID": "slides/01-intro/index.html#show-me-the-bill-dimensions-of-the-5-heaviest-female-gentoo-penguins",
-    "href": "slides/01-intro/index.html#show-me-the-bill-dimensions-of-the-5-heaviest-female-gentoo-penguins",
-    "title": "Introduction to R and RStudio",
-    "section": "Show me the bill dimensions of the 5 heaviest female Gentoo penguins",
-    "text": "Show me the bill dimensions of the 5 heaviest female Gentoo penguins\n\npenguins |&gt;\n  filter(sex == \"female\",\n         species == \"Gentoo\") |&gt;\n  slice_max(body_mass_g, n = 5) |&gt;\n  select(contains(\"bill\"))\n\n# A tibble: 5 × 2\n  bill_length_mm bill_depth_mm\n           &lt;dbl&gt;         &lt;dbl&gt;\n1           46.5          14.8\n2           45.2          14.8\n3           49.1          14.8\n4           44.9          13.3\n5           45.1          14.5"
-  },
-  {
-    "objectID": "slides/01-intro/index.html#the-native-pipe",
-    "href": "slides/01-intro/index.html#the-native-pipe",
-    "title": "Introduction to R and RStudio",
-    "section": "The native pipe",
-    "text": "The native pipe\n|&gt; is a pipe.\nIt passes what comes before into the first argument of what comes after.\nPipes are a powerful tool for clearly expressing a sequence of multiple operations."
-  },
-  {
-    "objectID": "slides/01-intro/index.html#whats-the-mean-bill-length-by-species",
-    "href": "slides/01-intro/index.html#whats-the-mean-bill-length-by-species",
-    "title": "Introduction to R and RStudio",
-    "section": "What’s the mean bill length, by species?",
-    "text": "What’s the mean bill length, by species?\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(mean_bill_length = mean(bill_length_mm, na.rm = TRUE))\n\n# A tibble: 3 × 2\n  species   mean_bill_length\n  &lt;fct&gt;                &lt;dbl&gt;\n1 Adelie                38.8\n2 Chinstrap             48.8\n3 Gentoo                47.5"
-  },
-  {
-    "objectID": "slides/01-intro/index.html#whats-the-relationship-between-bill-length-and-depth",
-    "href": "slides/01-intro/index.html#whats-the-relationship-between-bill-length-and-depth",
-    "title": "Introduction to R and RStudio",
-    "section": "What’s the relationship between bill length and depth?",
-    "text": "What’s the relationship between bill length and depth?\n\npictureplot 1code 1plot 2code 2what?\n\n\n\n\n\nArtwork by Allison Horst https://allisonhorst.github.io/palmerpenguins/articles/art.html\n\n\n\n\n\n\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm)) +\n  geom_point() +\n  geom_smooth(method = \"lm\", se = FALSE, color = \"gray50\") +\n  labs(title = \"Penguin bill dimensions\",\n       subtitle = \"Bill length and depth for Penguins at Palmer Station LTER\",\n       x = \"Bill length (mm)\",\n       y = \"Bill depth (mm)\") +\n  theme_minimal() + \n  theme(plot.title.position = \"plot\")\n\n\n\n\n\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           group = species)) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  geom_smooth(method = \"lm\", se = FALSE, aes(color = species)) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin bill dimensions\",\n       subtitle = \"Bill length and depth for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n       x = \"Bill length (mm)\",\n       y = \"Bill depth (mm)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme_minimal() +\n  theme(plot.title.position = \"plot\",\n        plot.subtitle = element_text(size = rel(0.95)))\n\n\n\nThis is an illustration of Simpson’s Paradox.\n\nSimpson’s paradox is a phenomenon in probability and statistics in which a trend appears in several groups of data but disappears or reverses when the groups are combined.\n\n\n\n\nExample adapted from https://allisonhorst.github.io/palmerpenguins/articles/examples.html"
-  },
-  {
-    "objectID": "slides/01-intro/index.html#resources",
-    "href": "slides/01-intro/index.html#resources",
-    "title": "Introduction to R and RStudio",
+    "objectID": "slides/04-sim-optim/index.html#resources",
+    "href": "slides/04-sim-optim/index.html#resources",
+    "title": "Simulation and Optimisation",
     "section": "Resources",
-    "text": "Resources\nMaterial inspired by and remixed from:\n\nhttps://www.heatherturner.net/teaching/zero-to-hero/#1\nhttps://ellakaye.github.io/Rladies-Coventry-getting-help-in-R/getting_help_in_R.html#1\nhttps://portal.stats.ox.ac.uk/userdata/ruth/APTS2013/Rcourse1.pdf\nhttps://carpentries-incubator.github.io/r-tidyverse-4-datasets/"
+    "text": "Resources\nThis material is reproduced in large part directly from the APTS 2013/14 resources by Ruth Ripley:\n\nhttps://portal.stats.ox.ac.uk/userdata/ruth/APTS2013/Rcourse5.pdf"
   },
   {
-    "objectID": "slides/01-intro/index.html#license",
-    "href": "slides/01-intro/index.html#license",
-    "title": "Introduction to R and RStudio",
+    "objectID": "slides/04-sim-optim/index.html#license",
+    "href": "slides/04-sim-optim/index.html#license",
+    "title": "Simulation and Optimisation",
     "section": "License",
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
   },
@@ -896,11 +791,74 @@
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
   },
   {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "This course is taking place in Term 1, 2023.\nThe course takes place from 10-11:30 on Tuesdays of even weeks and 10-11 on Thursdays of odd weeks. For dates, see the content page.\nThe taught sessions are on the Tuesdays and on Thursday of Week 7. The remaining Thursday slots are drop-in clinics, where you can come with any questions about the course, or for support with R more generally.\n\n\n\nWeek\nTues 10-11:30\nThurs 10-11\n\n\n\n\n2\nIntroduction to R and RStudio\n\n\n\n3\n\nClinic\n\n\n4\nData Types, Structures and Wrangling\n\n\n\n5\n\nClinic\n\n\n6\nProgramming in R\n\n\n\n7\n\nQuarto\n\n\n8\nSimulation and Optimisation\n\n\n\n9\n\nClinic\n\n\n10\nGraphics"
+  },
+  {
     "objectID": "content.html",
     "href": "content.html",
     "title": "Content",
     "section": "",
     "text": "Date\n\n\nTitle\n\n\n\n\n\n\nOct 10, 2022\n\n\nIntroduction to R and RStudio\n\n\n\n\nOct 17, 2022\n\n\nData Types, Structures and Wrangling\n\n\n\n\nOct 31, 2022\n\n\nProgramming in R\n\n\n\n\nNov 7, 2022\n\n\nSimulation and Optimisation\n\n\n\n\nNov 21, 2022\n\n\nGraphics\n\n\n\n\nNov 28, 2022\n\n\nQuarto\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/05-graphics/index.html",
+    "href": "content/05-graphics/index.html",
+    "title": "Graphics",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/05-graphics/index.html#slides",
+    "href": "content/05-graphics/index.html#slides",
+    "title": "Graphics",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/05-graphics/index.html#resources",
+    "href": "content/05-graphics/index.html#resources",
+    "title": "Graphics",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nggplot2: Elegant Graphics for Data Analysis\nhttps://ggplot2-book.org\n\n\n\nPackages\n\nggplot2\nhttps://ggplot2.tidyverse.org"
+  },
+  {
+    "objectID": "content/04-sim-optim/index.html",
+    "href": "content/04-sim-optim/index.html",
+    "title": "Simulation and Optimisation",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/04-sim-optim/index.html#slides",
+    "href": "content/04-sim-optim/index.html#slides",
+    "title": "Simulation and Optimisation",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/02-data-wrangling/index.html",
+    "href": "content/02-data-wrangling/index.html",
+    "title": "Data Types, Structures and Wrangling",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/02-data-wrangling/index.html#slides",
+    "href": "content/02-data-wrangling/index.html#slides",
+    "title": "Data Types, Structures and Wrangling",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/02-data-wrangling/index.html#resources",
+    "href": "content/02-data-wrangling/index.html#resources",
+    "title": "Data Types, Structures and Wrangling",
+    "section": "Resources",
+    "text": "Resources\n\nR and RStudio\n\nRStudio cheatsheets\nR for data science book\n\n\n\nPackages\n\ndplyr\nhttps://dplyr.tidyverse.org\nforcats\nhttps://forcats.tidyverse.org\nferriswheels\nhttps://github.com/EmilHvitfeldt/ferriswheels\nhere\nhttps://here.r-lib.org"
   },
   {
     "objectID": "index.html",
@@ -936,6 +894,69 @@
     "title": "R Foundations",
     "section": "Prerequistes",
     "text": "Prerequistes\nPlease see the prerequisites page for details on getting set up in advance of the first session."
+  },
+  {
+    "objectID": "content/06-quarto/index.html",
+    "href": "content/06-quarto/index.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "This page and the slides for this session are still under development"
+  },
+  {
+    "objectID": "content/06-quarto/index.html#slides",
+    "href": "content/06-quarto/index.html#slides",
+    "title": "Quarto",
+    "section": "Slides",
+    "text": "Slides\nHere’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/06-quarto/index.html#resources",
+    "href": "content/06-quarto/index.html#resources",
+    "title": "Quarto",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nTITLE"
+  },
+  {
+    "objectID": "content/03-programming/index.html",
+    "href": "content/03-programming/index.html",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/03-programming/index.html#slides",
+    "href": "content/03-programming/index.html#slides",
+    "title": "Programming in R",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/03-programming/index.html#resources",
+    "href": "content/03-programming/index.html#resources",
+    "title": "Programming in R",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nEfficient Programming, from Efficient R by Colin Gillespie and Robin Lovelace\nhttps://csgillespie.github.io/efficientR/programming.html\nChapters on functions and iteration, from R for Data Science by Hadley Wickham and Garrett Grolemund\nhttps://r4ds.had.co.nz/index.html\nhttps://r4ds.had.co.nz/functions.html\nhttps://r4ds.had.co.nz/iteration.html"
+  },
+  {
+    "objectID": "content/01-intro/index.html",
+    "href": "content/01-intro/index.html",
+    "title": "Introduction to R and RStudio",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-intro/index.html#slides",
+    "href": "content/01-intro/index.html#slides",
+    "title": "Introduction to R and RStudio",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-intro/index.html#resources",
+    "href": "content/01-intro/index.html#resources",
+    "title": "Introduction to R and RStudio",
+    "section": "Resources",
+    "text": "Resources\n\nR and RStudio\n\nRStudio IDE cheatsheet (11th one down)\nhttps://www.rstudio.com/resources/cheatsheets/\nBeginner resourses from the RStudio Education team\nhttps://education.rstudio.com/learn/beginner/\nIntroduction to R and RStudio from the Carpentries\nhttps://carpentries-incubator.github.io/r-tidyverse-4-datasets/01-project-introduction.html\n\n\n\nPackages\n\ntidyverse\nhttps://www.tidyverse.org\npalmerpenguins\nhttps://allisonhorst.github.io/palmerpenguins/index.html"
   },
   {
     "objectID": "join.html",
@@ -1169,205 +1190,23 @@
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
   },
   {
-    "objectID": "slides/04-sim-optim/index.html#overview",
-    "href": "slides/04-sim-optim/index.html#overview",
-    "title": "Simulation and Optimisation",
+    "objectID": "slides/00-template/index.html#overview",
+    "href": "slides/00-template/index.html#overview",
+    "title": "SESSION TITLE",
     "section": "Overview",
-    "text": "Overview\n\nNumerical precision\nRandom numbers\nSimulation\nOptimisation\n\nThis material is largely reproduced from Ruth Ripley’s 2013 APTS course"
+    "text": "Overview\n\nWhat we’re covering"
   },
   {
-    "objectID": "slides/04-sim-optim/index.html#how-r-stores-numbers",
-    "href": "slides/04-sim-optim/index.html#how-r-stores-numbers",
-    "title": "Simulation and Optimisation",
-    "section": "How R stores numbers",
-    "text": "How R stores numbers\nSome basic understanding is needed of how R stores and does arithmetic on numbers to avoid being surprised by the results it gives.\nFrom the R FAQ:\n\nThe only numbers that can be represented exactly in R’s numeric type are integers and fractions whose denominator is a power of 2. Other numbers have to be rounded to (typically) 53 binary digits accuracy. As a result, two floating point numbers will not reliably be equal unless they have been computed by the same algorithm, and not always even then."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#example",
-    "href": "slides/04-sim-optim/index.html#example",
-    "title": "Simulation and Optimisation",
-    "section": "Example",
-    "text": "Example\n\na &lt;- sqrt(2)\na * a == 2\n\n[1] FALSE\n\na * a - 2\n\n[1] 4.440892e-16\n\nall.equal(a * a, 2)\n\n[1] TRUE\n\n\nThe function all.equal() compares two objects using a numeric tolerance of .Machine$double.eps^0.5.1 If you want much greater accuracy than this you will need to consider error propagation carefully.\n.Machine$double.eps is the smallest positive floating-point number x such that 1 + x != 1 on the machine R is running on."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#numerical-consideration-resources",
-    "href": "slides/04-sim-optim/index.html#numerical-consideration-resources",
-    "title": "Simulation and Optimisation",
-    "section": "Numerical consideration resources",
-    "text": "Numerical consideration resources\nFor more information, see e.g. \n\nDavid Goldberg (1991), “What Every Computer Scientist Should Know About Floating-Point Arithmetic”, ACM Computing Surveys, 23/1, 5–48, also available via https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html.\nRuth Ripley’s numerical considerations notes for APTS 2013."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#uses-of-simulation",
-    "href": "slides/04-sim-optim/index.html#uses-of-simulation",
-    "title": "Simulation and Optimisation",
-    "section": "Uses of simulation",
-    "text": "Uses of simulation\n\nStatistical models are often mathematically intractable\nGenerate multiple samples for a model by simulation\nUse these samples to investigate the behaviour of the model\nNeed realisations of random variables with various different distributions, our random numbers\nDetails of how to use the random numbers to create samples will not be considered here"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#random-number-generation",
-    "href": "slides/04-sim-optim/index.html#random-number-generation",
-    "title": "Simulation and Optimisation",
-    "section": "Random number generation",
-    "text": "Random number generation\n\nRandom numbers calculated on a computer are not random.\nThey are pseudo-random, following a predicted sequence, but in the short-term (i.e. anything but the very long-term) will appear to be random.\nThis is useful, as two sets of random numbers of the same size from the same generator using the same initial value will be exactly the same. This is crucial for reproducibility.\nR provides functions for generating random samples from standard distibutions."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#random-seeds-in-r",
-    "href": "slides/04-sim-optim/index.html#random-seeds-in-r",
-    "title": "Simulation and Optimisation",
-    "section": "Random seeds in R",
-    "text": "Random seeds in R\n\nEach time a random number is required, R will use and update a variable called .Random.seed which is in your workspace.\nAt the first use, if .Random.seed does not exist, one will be created, with a value generated from the time.\nThe function set.seed(n) will set .Random.seed to a value derived from the argument n.\nUse set.seed() to repeat the same sequence of random numbers."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#random-number-generators-in-r",
-    "href": "slides/04-sim-optim/index.html#random-number-generators-in-r",
-    "title": "Simulation and Optimisation",
-    "section": "Random number generators in R",
-    "text": "Random number generators in R\n\nThere are various different generators available. R will use the one in use at the start of your session unless you alter it, even if you delete .Random.seed. For safety, you can specify the kind on calls to set.seed. Use set.seed(n, kind=\"default\") to ensure you are using R’s default.\nIt is possible to save and restore .Random.seed within your functions, but take care with scope (see next term!).\nNote that random number generation changed in R version 4.0.0, so you might get different outputs even with the same seed when using versions before and after this release."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#set.seed-example",
-    "href": "slides/04-sim-optim/index.html#set.seed-example",
-    "title": "Simulation and Optimisation",
-    "section": "set.seed() example",
-    "text": "set.seed() example\n\nsample(10)\n\n [1]  5  3  8  2  1 10  7  4  6  9\n\nset.seed(1)\nsample(10)\n\n [1]  9  4  7  1  2  5  3 10  6  8\n\nsample(10)\n\n [1]  3  1  5  8  2  6 10  9  4  7\n\nset.seed(1)\nsample(10)\n\n [1]  9  4  7  1  2  5  3 10  6  8"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#sample",
-    "href": "slides/04-sim-optim/index.html#sample",
-    "title": "Simulation and Optimisation",
-    "section": "sample()",
-    "text": "sample()\nThe sample() function re-samples from a data vector, with or without replacement.\nsample(x, size, replace = FALSE, prob = NULL)\n\n\n\n\n\n\n\nx\npositive integer or a vector\n\n\nsize\nnon-negative integer, number of items to choose\n\n\nreplace\nlogical - should sampling be with replacement\n\n\nprob\na vector of probability weights for obtaining the elements of the vector being sampled."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#sample-examples",
-    "href": "slides/04-sim-optim/index.html#sample-examples",
-    "title": "Simulation and Optimisation",
-    "section": "sample() examples",
-    "text": "sample() examples\n\nsample(n)sample(x)sample(x, replace = TRUE)sample(x, size = n)sample(x, n, replace = TRUE)sample(x, n, replace = TRUE, prob = probs)\n\n\nA random permutation of 1, …, n\n\nset.seed(123)\nsample(10)\n\n [1]  3 10  2  8  6  9  1  7  5  4\n\n\nSee also sample.int():\n\nset.seed(123)\nsample.int(10)\n\n [1]  3 10  2  8  6  9  1  7  5  4\n\n\n\n\nA random permutation of x for length(x) &gt; 1\n\nset.seed(10)\nalph5 &lt;- LETTERS[1:5]\nsample(alph5)\n\n[1] \"C\" \"A\" \"B\" \"E\" \"D\"\n\n\n\n\nA bootstrap sample\n\nset.seed(10)\nsample(alph5, replace = TRUE)\n\n[1] \"C\" \"A\" \"B\" \"D\" \"C\"\n\n\n\n\nSample n items from x without replacement\n\nset.seed(10)\nsample(alph5, 3)\n\n[1] \"C\" \"A\" \"B\"\n\n\n\n\nSample n items from x with replacement\n\nset.seed(1)\nsample(alph5, 3, replace = TRUE)\n\n[1] \"A\" \"D\" \"A\"\n\n\n\n\nProbability sample of n items from x\n\nx &lt;- 1:4\nprobs &lt;- c(1/2, 1/3, 1/12, 1/12)\n\nset.seed(1)\nsamp &lt;- sample(x, 100, replace = TRUE, prob = probs)\ntable(samp)\n\nsamp\n 1  2  3  4 \n52 34 10  4"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#distributions-in-r",
-    "href": "slides/04-sim-optim/index.html#distributions-in-r",
-    "title": "Simulation and Optimisation",
-    "section": "Distributions in R",
-    "text": "Distributions in R\nMany statistical distributions are built into R. Each has a root name, e.g. norm for the normal distribution.\nThere are four functions for each distribution, with different letters prefixing the room name:\n\np for probability, the cumulative distribution function\nq for quantile, the inverse c.d.f.\nd for density, the density function, p.d.f.\nr for random, a random sample from the distribution.\n\nSo, for the normal distribution, we have the functions pnorm, qnorm, dnorm, rnorm."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#distributions-and-parameterisations",
-    "href": "slides/04-sim-optim/index.html#distributions-and-parameterisations",
-    "title": "Simulation and Optimisation",
-    "section": "Distributions and parameterisations",
-    "text": "Distributions and parameterisations\n\n\n\n\n\nDistribution\nBase name\nParameters\n\n\n\n\nbeta\nbeta\nshape1, shape2\n\n\nbinomial\nbinom\nsize, prob\n\n\nCauchy\ncauchy\nlocation, scale\n\n\nchi-squared\nchisq\ndf\n\n\nexponential\nexp\nrate\n\n\nF\nf\ndf1, df2\n\n\ngamma\ngamma\nshape, rate\n\n\ngeometric\ngeom\np\n\n\nhypergeometric\nhyper\nm, n, k\n\n\nlog-normal\nlnorm\nmeanlog, sdlog\n\n\nlogistic\nlogis\nlocation, scale\n\n\nnegative binomial\nnbinom\nsize, prob\n\n\nnormal\nnorm\nmean, sd\n\n\nPoisson\npois\nlambda\n\n\nStudent t\nt\ndf\n\n\nuniform\nunif\nmin, max\n\n\nWeibull\nweibull\nshape, scale"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#generating-random-samples-from-a-distibution",
-    "href": "slides/04-sim-optim/index.html#generating-random-samples-from-a-distibution",
-    "title": "Simulation and Optimisation",
-    "section": "Generating random samples from a distibution",
-    "text": "Generating random samples from a distibution\nTo obtain a sample of size n, use the r function for the distribution with the first argument n, and subsequent arguments the parameters for that distribution. The parameters often have default values. E.g.\n\n\n\n\n\n\n\nrunif(n, min=0, max=1)\nUniform\n\n\nrnorm(n, mean=0, sd=1)\nNormal\n\n\nrexp(n, rate=1)\nExponential with mean 1/rate\n\n\nrt(n, df)\nt with df degrees of freedom\n\n\nrbinom(n, size, prob)\nBinomial, success in size trials with probability of success prob\n\n\n\nTable from https://www.johndcook.com/blog/distributions_r_splus/"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#your-yurn",
-    "href": "slides/04-sim-optim/index.html#your-yurn",
-    "title": "Simulation and Optimisation",
-    "section": "Your yurn!",
-    "text": "Your yurn!\nSometimes sample() can lead to nasty surprises.\nConsider the following code. Which line might cause a problem?\n\nx &lt;- 1:10\nsample(x[x &gt; 8])\nsample(x[x &gt; 9])\nsample(x[x &gt; 10])\n\nRun the code to see what happens.\n\n\n\n\nWarning\n\n\nYou need to be careful when using sample() programmatically (i.e. in your function or simulation).\nSee ?sample for a safer version and check you understand how the proposed resample() function works."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#the-optimisation-problem",
-    "href": "slides/04-sim-optim/index.html#the-optimisation-problem",
-    "title": "Simulation and Optimisation",
-    "section": "The optimisation problem",
-    "text": "The optimisation problem\n\nGiven a function \\(f(x)\\), what value of \\(x\\) makes \\(f(x)\\) as small or large as possible?\nIn a statistical context, \\(x\\) will usually be the parameters of a model, and \\(f(x)\\) either the model likelihood to be maximised or some measure of discrepancy between data and predictions to be minimised.\nThe optimal set of parameters will give the best fit\nOnly need to consider small as \\(-f(x)\\) is large when \\(f(x)\\) is small.\nWe consider here general-purpose optimisers"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#local-and-global-minima",
-    "href": "slides/04-sim-optim/index.html#local-and-global-minima",
-    "title": "Simulation and Optimisation",
-    "section": "Local and global minima",
-    "text": "Local and global minima\n\nThe (negative of the) likelihood for the General Linear Model (and that for many other linear models) is well-behaved: it has a single, global minimum.\nFor more complicated models there may be many local minima.\nFinding a global minimum is difficult, and not always important. Only if local minima are widely separated in parameter space are they likely to invalidate our conclusions.\nWe will concentrate on methods of finding local minima. Check for different local minima by altering the initial values, algorithm used, or other parameters of the fitting process."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#univariate-optimisation",
-    "href": "slides/04-sim-optim/index.html#univariate-optimisation",
-    "title": "Simulation and Optimisation",
-    "section": "Univariate optimisation",
-    "text": "Univariate optimisation\noptimize (or optimise) finds a (possibly local) mimimum of a function in a specified interval with respect to its first argument.\n\nFunction to be minimised is the first argument to optimize\nCan pre-specify the function or include it in the command."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#univariate-optimisation-example",
-    "href": "slides/04-sim-optim/index.html#univariate-optimisation-example",
-    "title": "Simulation and Optimisation",
-    "section": "Univariate optimisation: example",
-    "text": "Univariate optimisation: example\n\nf &lt;- function(x, a) {\n  (x - a)^2\n}\n\nxmin &lt;- optimize(f, interval = c(0, 1), a = 1/3)\n\n# or\n\nxmin &lt;- optimize(function(x, a) {(x - a)^2}, \n                 interval = c(0, 1), a = 1/3)\n\nxmin\n\n$minimum\n[1] 0.3333333\n\n$objective\n[1] 0\n\n\nNote how the (fixed) parameter a is passed into f."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#other-optimize-arguments",
-    "href": "slides/04-sim-optim/index.html#other-optimize-arguments",
-    "title": "Simulation and Optimisation",
-    "section": "Other optimize() arguments",
-    "text": "Other optimize() arguments\n\n\nAn interval within which to search must be specified, either by interval or by upper and lower\nTo maximise set maximum = TRUE\nAccuracy can be set using the tol argument\nNote the order of arguments: `optimize(f, interval, …, lower, upper, maximum, tol)\nThe ... can be named or unnamed and will be passed to f\nArguments after the ... must be specified by names.\noptimize returns a list with two items:\n\nminimum: the value of x at which f(x) is minimised\nobjective: the value of f(x) at x = minimum"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#general-optimisation",
-    "href": "slides/04-sim-optim/index.html#general-optimisation",
-    "title": "Simulation and Optimisation",
-    "section": "General optimisation",
-    "text": "General optimisation\n\nIn more than one dimension the problem is harder.\nR has several different functions: most flexible is optim() which includes several different algorithms.\nAlgorithm of choice depends on how easy it is to calculate derivatives for the function. Usually better to supply a function to calculate derivatives, but may be unnecessary extra work.\nEnsure the problem is scaled so that unit change in any parameter gives approximately unit change in objective."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#optim-mmethods",
-    "href": "slides/04-sim-optim/index.html#optim-mmethods",
-    "title": "Simulation and Optimisation",
-    "section": "optim() M=methods",
-    "text": "optim() M=methods\n\nNelder-MeadBFGSCGL-BFGS-BSANNBrent\n\n\n\nThe default method\nBasic idea: for a function with n parameters, choose a polygon with n+1 vertices. At each step, alter vertex with minimum f(x) to improve the objective function, by reflection, expansion or contraction\nDoes not use derivative information\nUseful for non-differentiable functions\nMay be rather slow\n\n\n\n\nA quasi-Newton method: builds up approximation to Hessian matrix from gradients at start and finish of steps\nUses the approximation to choose new search direction\nPerforms line search in this direction\nUpdate term for the Hessian approximation is due to Broyden, Fletcher, Goldfarb and Shanno (proposed separately by all four in 1970)\nUses derivative information, calculated either from a user-supplied function or by finite differences\nIf dimension is large, the matrix stored may be very large\n\n\n\n\nA conjugate gradient method: chooses successive search directions that are analogous to axes of an ellipse\nDoes not store a Hessian matrix\nThree different formulae for the search directions are implemented: Fletcher-Reeves, Polak-Ribiere or Beale-Sorenson\nLess robust than BFGS method\nUses derivative information, calculated either from a user-supplied function or by finite differences\n\n\n\n\nA limited memory version of BFGS\nDoes not store a Hessian matrix, only a limited number of update steps for it\nUses derivative information, calculated either from a user-supplied function or by finite differences\nCan restrict the solution to lie within a “box”, the only method of optim() that can do this\n\n\n\n\nA variant of simulated annealing A stochastic algorithm\nAccepts changes which increase the objective with positive probability (when minimising!)\nDoes not use derivative information\nCan be very slow to converge but may find a ‘good’ solution quickly\n\n\n\n\nAn interface to optimize()\nOnly for use with one dimensional problems\nIncluded for use inside other functions where only method can be specified, not the function to be used."
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#how-to-use-optim",
-    "href": "slides/04-sim-optim/index.html#how-to-use-optim",
-    "title": "Simulation and Optimisation",
-    "section": "How to use optim()",
-    "text": "How to use optim()\noptim(par, fn, gr=NULL, ..., method=c(\"Nelder-Mead\", \"BFGS\", \"CG\", \"L-BFGS-B\", \"SANN\", \"Brent\"), lower=-Inf, upper=Inf, control=list(), hessian=FALSE)\n\n\n\n\n\n\n\npar\nstarting values of the parameters\n\n\nfn\nfunction to be optimised (supply as for optimize)\n\n\ngr\nfunction to calculate the derivative, only relevant for methods “BFGS”, “CG” or “L-BFGS-B”\n\n\n…\nother parameters for (both) fn and gr\n\n\nmethod\nalgorithm to use\n\n\nlower, upper\nvector of limits for parameters (only allowed it method=\"L-BFGS-B\"\n\n\ncontrol\ncontrol options (see next slide)\n\n\nhessian\nlogical: whether to return a hessian estimate calculated by finite differences"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#optim-control-options",
-    "href": "slides/04-sim-optim/index.html#optim-control-options",
-    "title": "Simulation and Optimisation",
-    "section": "optim(): control options",
-    "text": "optim(): control options\nThere are very many. The most important are:\n\n\n\n\n\n\n\ntrace\nA positive integer: higher values give more information\n\n\nfnscale\nAn overall scaling: if negative, maximisation will be performed\n\n\nparscale\nA vector of scalings for the parameters\n\n\nmaxit\nMaximum number of iterations to be performed. May be used to terminate unsuccessful attempts. Also used to perform one or two steps if convergence is unimportant\n\n\ntype\nUsed to select formula for “CG” method"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#optim-components-of-return-value",
-    "href": "slides/04-sim-optim/index.html#optim-components-of-return-value",
-    "title": "Simulation and Optimisation",
-    "section": "optim(): Components of Return Value",
-    "text": "optim(): Components of Return Value\n\n\n\n\n\n\n\npar\nbest set of parameters\n\n\nvalue\nvalue of fn corresponding to par\n\n\ncounts\nnumber of calls to fn and gr: excludes calls for purposes of approximating derivatives or Hessian\n\n\nconvergence\nerror code: 0=success, 1=maxit reached, 10=degeneracy of Nelder-Mead simplex, 51=warning from “L-BFGS-B”, 52=error from “L-BFGS-B”\n\n\nmessage\nfurther information, if any\n\n\nhessian\nif requested, a symmetric matrix estimate of the Hessian at the solution"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#your-turn-q1",
-    "href": "slides/04-sim-optim/index.html#your-turn-q1",
-    "title": "Simulation and Optimisation",
-    "section": "Your turn! Q1",
-    "text": "Your turn! Q1\n\nfw &lt;- function (x) {\n    10*sin(0.3*x)*sin(1.3*x^2) + 0.00001*x^4 + 0.2*x+80\n}\n\n\n\nUse optim() to find a global minimum\nUse optim() again to improve locally (aiming for -15.81515)"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#your-turn-q2",
-    "href": "slides/04-sim-optim/index.html#your-turn-q2",
-    "title": "Simulation and Optimisation",
-    "section": "Your turn! Q2",
-    "text": "Your turn! Q2\n\nTake a look at the introduction to the Wikipedia page for Rosenbrock’s banana function\nCopy this code for the fn and gr\n\n\nfr &lt;- function(x) {   \n    x1 &lt;- x[1]\n    x2 &lt;- x[2]\n    100 * (x2 - x1 * x1)^2 + (1 - x1)^2\n}\n\ngr &lt;- function(x) { \n    x1 &lt;- x[1]\n    x2 &lt;- x[2]\n    c(-400 * x1 * (x2 - x1 * x1) - 2 * (1 - x1),\n       200 *      (x2 - x1 * x1))\n}\n\n\nExperiment with the optim() function to see which methods converge"
-  },
-  {
-    "objectID": "slides/04-sim-optim/index.html#resources",
-    "href": "slides/04-sim-optim/index.html#resources",
-    "title": "Simulation and Optimisation",
+    "objectID": "slides/00-template/index.html#resources",
+    "href": "slides/00-template/index.html#resources",
+    "title": "SESSION TITLE",
     "section": "Resources",
-    "text": "Resources\nThis material is reproduced in large part directly from the APTS 2013/14 resources by Ruth Ripley:\n\nhttps://portal.stats.ox.ac.uk/userdata/ruth/APTS2013/Rcourse5.pdf"
+    "text": "Resources\nMaterial inspired by and remixed from:"
   },
   {
-    "objectID": "slides/04-sim-optim/index.html#license",
-    "href": "slides/04-sim-optim/index.html#license",
-    "title": "Simulation and Optimisation",
+    "objectID": "slides/00-template/index.html#license",
+    "href": "slides/00-template/index.html#license",
+    "title": "SESSION TITLE",
     "section": "License",
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
   },
@@ -1736,80 +1575,241 @@
     "text": "Side Effects\nA side-effect is a change outside the function that occurs when the function is run, e.g.\n\nplot to the graphics window or other device\nprinting output to the console\nwrite data to a file\n\nA function can have many side-effects and a return value, but it is best practice to have a separate function for each task, e.g creating a plot or a table.\nWriting to file is usually best done outside a function."
   },
   {
-    "objectID": "slides/00-template/index.html#overview",
-    "href": "slides/00-template/index.html#overview",
-    "title": "SESSION TITLE",
+    "objectID": "slides/01-intro/index.html#overview",
+    "href": "slides/01-intro/index.html#overview",
+    "title": "Introduction to R and RStudio",
     "section": "Overview",
-    "text": "Overview\n\nWhat we’re covering"
+    "text": "Overview\n\nWhy use R?\nUse RStudio to write and run R programmes\nCreate and start an R project\nUse install.packages() to install packages\nHow to get help in R\nSee examples of data wrangling and visualisation"
   },
   {
-    "objectID": "slides/00-template/index.html#resources",
-    "href": "slides/00-template/index.html#resources",
-    "title": "SESSION TITLE",
+    "objectID": "slides/01-intro/index.html#what-can-r-do",
+    "href": "slides/01-intro/index.html#what-can-r-do",
+    "title": "Introduction to R and RStudio",
+    "section": "What can R do?",
+    "text": "What can R do?\n\n\n\nData import\nData management and wrangling\nExploratory data analysis\nStatistical modelling\nAdvanced statistics\nMachine learning\n\n\n\nData visualisation\nReports, articles\nDashboards, web apps\nIntegrates well with other languages\nPackages: share your code and use others"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#the-r-ecosystem",
+    "href": "slides/01-intro/index.html#the-r-ecosystem",
+    "title": "Introduction to R and RStudio",
+    "section": "The R Ecosystem",
+    "text": "The R Ecosystem\nBase R\n\n\nbase\n\nCreate R objects\nSummaries\nMaths functions\n\n\nrecommended\n\nStatistics\nGraphics\nExample data"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#the-r-ecosystem-1",
+    "href": "slides/01-intro/index.html#the-r-ecosystem-1",
+    "title": "Introduction to R and RStudio",
+    "section": "The R Ecosystem",
+    "text": "The R Ecosystem\nContributed packages\n\n\nCRAN\n\nOfficial R repository\nhttps://cran.r-project.org\nnearly 19000 packages\n\n\nBioconductor\n\nBioinformatics packages\nhttps://www.bioconductor.org\n~2100 packages\n\n\n\nGitHub\n\nPackages in development\nGitHub-only packages"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#the-tidyverse",
+    "href": "slides/01-intro/index.html#the-tidyverse",
+    "title": "Introduction to R and RStudio",
+    "section": "The tidyverse",
+    "text": "The tidyverse\nThe tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar and data structures.\n\nFrom https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#palmerpenguins",
+    "href": "slides/01-intro/index.html#palmerpenguins",
+    "title": "Introduction to R and RStudio",
+    "section": "palmerpenguins",
+    "text": "palmerpenguins\n\npalmerpenguins is a dataset package, designed to be a great example for data exploration and visualisation.\nIt contains measurement data for 344 penguins, from three different species, collected from three islands in the Palmer Archipelago, Antarctica.\n\n\nPenguin artwork by Allison Horst https://allisonhorst.github.io/palmerpenguins/articles/art.html"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#the-r-community",
+    "href": "slides/01-intro/index.html#the-r-community",
+    "title": "Introduction to R and RStudio",
+    "section": "The R community",
+    "text": "The R community\nAnother reason to love R is the community around it.\nIt prides itself on being friendly, diverse, helpful, and supportive.\n\nR user groups, especially Warwick RUG\nRLadies, especially RLadies Coventry\nRStudio Community\nR for Data Science\n#RStats and #TidyTuesday on twitter\nRainbowR (LGBTQ+)\nMiR (minorities in R)"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#at-first",
+    "href": "slides/01-intro/index.html#at-first",
+    "title": "Introduction to R and RStudio",
+    "section": "At first",
+    "text": "At first"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#with-script",
+    "href": "slides/01-intro/index.html#with-script",
+    "title": "Introduction to R and RStudio",
+    "section": "With script",
+    "text": "With script"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#best-practice-use-r-projects",
+    "href": "slides/01-intro/index.html#best-practice-use-r-projects",
+    "title": "Introduction to R and RStudio",
+    "section": "Best practice: use R projects",
+    "text": "Best practice: use R projects\nAn RStudio project is a contect for working on a specific project\n\nKeeps files well-organised\nAutomatically sets working directory to project root\nHas separate workspace and command history\nWorks well with version control via git or svn"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#getting-started-with-projects",
+    "href": "slides/01-intro/index.html#getting-started-with-projects",
+    "title": "Introduction to R and RStudio",
+    "section": "Getting started with projects",
+    "text": "Getting started with projects\n\nCreate a project from a new or existing directory via the file menu or new project button\nSwitch project, or open a different project in a new RStudio instance via the project menu"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#rstudio-project-demo",
+    "href": "slides/01-intro/index.html#rstudio-project-demo",
+    "title": "Introduction to R and RStudio",
+    "section": "RStudio project demo",
+    "text": "RStudio project demo\n\nCreate R-Foundations project\nCreate first script"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#using-the-console",
+    "href": "slides/01-intro/index.html#using-the-console",
+    "title": "Introduction to R and RStudio",
+    "section": "Using the console",
+    "text": "Using the console\n\nFor things that only need doing once, e.g. installing packages\nFor doing things you don’t need to track, e.g. requesting help files\nTo quickly explore new ideas before adding them to a script"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#using-the-console-shortcuts",
+    "href": "slides/01-intro/index.html#using-the-console-shortcuts",
+    "title": "Introduction to R and RStudio",
+    "section": "Using the console: shortcuts",
+    "text": "Using the console: shortcuts\nRStudio provides a few shortcuts to help write code in the R console\n\n↑/↓ go back/forward through history one command at a time\nCtrl/⌘ + ↑ review recent history and select command\nTab view possible completions for part-written expression\n\nCode completion (using Tab) is also provided in the source editor"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#using-the-console-demo",
+    "href": "slides/01-intro/index.html#using-the-console-demo",
+    "title": "Introduction to R and RStudio",
+    "section": "Using the console: demo",
+    "text": "Using the console: demo\n1 + 1\n?log\nlog(10)\nexp(-4 * 4 / 2) / sqrt(2 * pi)\ninstall.packages(\"tidyverse\")\ninstall.packages(\"palmerpenguins\")"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#using-scripts",
+    "href": "slides/01-intro/index.html#using-scripts",
+    "title": "Introduction to R and RStudio",
+    "section": "Using scripts",
+    "text": "Using scripts\nText files saved with an .R suffix are recognised as R code\nCode can be sent directly from a script to the console as follows:\n\nCtrl/⌘ + ↵ or  run current line\n\nRun multiple lines by selecting first\n\nCtrl/⌘ + Shift + ↵ or \n\nRun the script from start to finish."
+  },
+  {
+    "objectID": "slides/01-intro/index.html#why-r-scripts",
+    "href": "slides/01-intro/index.html#why-r-scripts",
+    "title": "Introduction to R and RStudio",
+    "section": "Why R scripts",
+    "text": "Why R scripts\nWriting an R script for an analysis has several advantages over a graphical user interface (GUI)\n\nIt provides a record of the exact approach used in an analysis\nIt enables the analysis to be easily reproduced and modified\nIt allows greater control"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#good-practice-for-r-scripts",
+    "href": "slides/01-intro/index.html#good-practice-for-r-scripts",
+    "title": "Introduction to R and RStudio",
+    "section": "Good practice for R Scripts",
+    "text": "Good practice for R Scripts\nOrganising your R script well will help you and others understand and use it.\n\nAdd comment or two at start to describe purpose of script\nLoad required data and packages at the start\nAvoid hard-coding: define variables such as file paths early on\nGive functions and variable meaningful names\nuse ### or #--- to separate sections (in RStudio Code &gt; Insert Section)"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#r-script-demo",
+    "href": "slides/01-intro/index.html#r-script-demo",
+    "title": "Introduction to R and RStudio",
+    "section": "R script demo",
+    "text": "R script demo\n### load libraries\nlibrary(palmerpenguins)\nlibrary(tidyverse)\n\n### Inspect data\nView(penguins)\nglimpse(penguins)\nhead(penguins)\nsummary(penguins)"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#installing-packages",
+    "href": "slides/01-intro/index.html#installing-packages",
+    "title": "Introduction to R and RStudio",
+    "section": "Installing packages",
+    "text": "Installing packages\nIn console\n\nInstall a package with install.packages(\"package_name\")\n\nWatch out for the plural!\n\nInstall multiple packages with install.packages(c(\"package1\", \"package2\"))\n\nThe c() function creates a vector\n\nOr use install button in packages pane:"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#loading-packages",
+    "href": "slides/01-intro/index.html#loading-packages",
+    "title": "Introduction to R and RStudio",
+    "section": "Loading packages",
+    "text": "Loading packages\nIn script\n\nLoad packages with library(package_name)"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#within-r-help-with-functions",
+    "href": "slides/01-intro/index.html#within-r-help-with-functions",
+    "title": "Introduction to R and RStudio",
+    "section": "Within R: Help with functions",
+    "text": "Within R: Help with functions\n\n# help with a specific function\nhelp(function_name)\n?function_name\n\n# quick reminder of the function arguments\narg(function_name)\n\n# see an example\nexample(function_name)\n\n# see the source code\n## in console\nfunction_name\n## in View pane (easier to read, syntax highlighting)\nView(function_name)"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#within-r-help.search",
+    "href": "slides/01-intro/index.html#within-r-help.search",
+    "title": "Introduction to R and RStudio",
+    "section": "Within R: help.search",
+    "text": "Within R: help.search\n\n# when ?function_name fails (e.g. don't have library loaded)\nhelp.search(\"function_name\") # note quotation marks\n??function_name\n\n# for when you can't quite remember the function name\n??something_like_function_name\n\n# R help start page\nhelp.start()\n## note that using the RStudio Help home button gives even more resources"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#within-r-help-with-package",
+    "href": "slides/01-intro/index.html#within-r-help-with-package",
+    "title": "Introduction to R and RStudio",
+    "section": "Within R: Help with package",
+    "text": "Within R: Help with package\n\n# `help`\nhelp(package = \"package_name\")\n# Help panel in RStudio will give links to all documentation\n# and help pages for that package\n\n# find/browse vignettes for installed (or specific) packages\nbrowseVignettes()\nbrowseVignettes(\"package_name\")\n\n# use auto-completion in RStudio to see what functions \n# are in a package\n?package::\n\ndplyr demo\nRStudio Help home demo"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#your-turn",
+    "href": "slides/01-intro/index.html#your-turn",
+    "title": "Introduction to R and RStudio",
+    "section": "Your turn",
+    "text": "Your turn\n\nCreate an R project called “R-foundations”\nInstall the packages palmerpenguins and tidyverse\nFind the help page for the penguins dataset\nFind the help page for the filter function in the dplyr package\nExperiment typing commands into the console or in an R script.\n\nlink to slides"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#the-data",
+    "href": "slides/01-intro/index.html#the-data",
+    "title": "Introduction to R and RStudio",
+    "section": "The data",
+    "text": "The data\n\n\nlibrary(palmerpenguins)\nlibrary(tidyverse)\n\n\npenguins\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750\n 2 Adelie  Torgersen           39.5          17.4               186        3800\n 3 Adelie  Torgersen           40.3          18                 195        3250\n 4 Adelie  Torgersen           NA            NA                  NA          NA\n 5 Adelie  Torgersen           36.7          19.3               193        3450\n 6 Adelie  Torgersen           39.3          20.6               190        3650\n 7 Adelie  Torgersen           38.9          17.8               181        3625\n 8 Adelie  Torgersen           39.2          19.6               195        4675\n 9 Adelie  Torgersen           34.1          18.1               193        3475\n10 Adelie  Torgersen           42            20.2               190        4250\n# ℹ 334 more rows\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#how-many-of-each-species",
+    "href": "slides/01-intro/index.html#how-many-of-each-species",
+    "title": "Introduction to R and RStudio",
+    "section": "How many of each species?",
+    "text": "How many of each species?\n\ncount(penguins, species)\n\n# A tibble: 3 × 2\n  species       n\n  &lt;fct&gt;     &lt;int&gt;\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#how-many-of-each-species-on-each-island",
+    "href": "slides/01-intro/index.html#how-many-of-each-species-on-each-island",
+    "title": "Introduction to R and RStudio",
+    "section": "How many of each species on each island?",
+    "text": "How many of each species on each island?\n\ncount(penguins, species, island, .drop = FALSE)\n\n# A tibble: 9 × 3\n  species   island        n\n  &lt;fct&gt;     &lt;fct&gt;     &lt;int&gt;\n1 Adelie    Biscoe       44\n2 Adelie    Dream        56\n3 Adelie    Torgersen    52\n4 Chinstrap Biscoe        0\n5 Chinstrap Dream        68\n6 Chinstrap Torgersen     0\n7 Gentoo    Biscoe      124\n8 Gentoo    Dream         0\n9 Gentoo    Torgersen     0"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#show-me-the-bill-dimensions-of-the-5-heaviest-female-gentoo-penguins",
+    "href": "slides/01-intro/index.html#show-me-the-bill-dimensions-of-the-5-heaviest-female-gentoo-penguins",
+    "title": "Introduction to R and RStudio",
+    "section": "Show me the bill dimensions of the 5 heaviest female Gentoo penguins",
+    "text": "Show me the bill dimensions of the 5 heaviest female Gentoo penguins\n\npenguins |&gt;\n  filter(sex == \"female\",\n         species == \"Gentoo\") |&gt;\n  slice_max(body_mass_g, n = 5) |&gt;\n  select(contains(\"bill\"))\n\n# A tibble: 5 × 2\n  bill_length_mm bill_depth_mm\n           &lt;dbl&gt;         &lt;dbl&gt;\n1           46.5          14.8\n2           45.2          14.8\n3           49.1          14.8\n4           44.9          13.3\n5           45.1          14.5"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#the-native-pipe",
+    "href": "slides/01-intro/index.html#the-native-pipe",
+    "title": "Introduction to R and RStudio",
+    "section": "The native pipe",
+    "text": "The native pipe\n|&gt; is a pipe.\nIt passes what comes before into the first argument of what comes after.\nPipes are a powerful tool for clearly expressing a sequence of multiple operations."
+  },
+  {
+    "objectID": "slides/01-intro/index.html#whats-the-mean-bill-length-by-species",
+    "href": "slides/01-intro/index.html#whats-the-mean-bill-length-by-species",
+    "title": "Introduction to R and RStudio",
+    "section": "What’s the mean bill length, by species?",
+    "text": "What’s the mean bill length, by species?\n\npenguins |&gt;\n  group_by(species) |&gt;\n  summarise(mean_bill_length = mean(bill_length_mm, na.rm = TRUE))\n\n# A tibble: 3 × 2\n  species   mean_bill_length\n  &lt;fct&gt;                &lt;dbl&gt;\n1 Adelie                38.8\n2 Chinstrap             48.8\n3 Gentoo                47.5"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#whats-the-relationship-between-bill-length-and-depth",
+    "href": "slides/01-intro/index.html#whats-the-relationship-between-bill-length-and-depth",
+    "title": "Introduction to R and RStudio",
+    "section": "What’s the relationship between bill length and depth?",
+    "text": "What’s the relationship between bill length and depth?\n\npictureplot 1code 1plot 2code 2what?\n\n\n\n\n\nArtwork by Allison Horst https://allisonhorst.github.io/palmerpenguins/articles/art.html\n\n\n\n\n\n\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm)) +\n  geom_point() +\n  geom_smooth(method = \"lm\", se = FALSE, color = \"gray50\") +\n  labs(title = \"Penguin bill dimensions\",\n       subtitle = \"Bill length and depth for Penguins at Palmer Station LTER\",\n       x = \"Bill length (mm)\",\n       y = \"Bill depth (mm)\") +\n  theme_minimal() + \n  theme(plot.title.position = \"plot\")\n\n\n\n\n\n\n\nggplot(data = penguins,\n       aes(x = bill_length_mm,\n           y = bill_depth_mm,\n           group = species)) +\n  geom_point(aes(color = species, \n                 shape = species),\n             size = 3,\n             alpha = 0.8) +\n  geom_smooth(method = \"lm\", se = FALSE, aes(color = species)) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(title = \"Penguin bill dimensions\",\n       subtitle = \"Bill length and depth for Adelie, Chinstrap and Gentoo Penguins at Palmer Station LTER\",\n       x = \"Bill length (mm)\",\n       y = \"Bill depth (mm)\",\n       color = \"Penguin species\",\n       shape = \"Penguin species\") +\n  theme_minimal() +\n  theme(plot.title.position = \"plot\",\n        plot.subtitle = element_text(size = rel(0.95)))\n\n\n\nThis is an illustration of Simpson’s Paradox.\n\nSimpson’s paradox is a phenomenon in probability and statistics in which a trend appears in several groups of data but disappears or reverses when the groups are combined.\n\n\n\n\nExample adapted from https://allisonhorst.github.io/palmerpenguins/articles/examples.html"
+  },
+  {
+    "objectID": "slides/01-intro/index.html#resources",
+    "href": "slides/01-intro/index.html#resources",
+    "title": "Introduction to R and RStudio",
     "section": "Resources",
-    "text": "Resources\nMaterial inspired by and remixed from:"
+    "text": "Resources\nMaterial inspired by and remixed from:\n\nhttps://www.heatherturner.net/teaching/zero-to-hero/#1\nhttps://ellakaye.github.io/Rladies-Coventry-getting-help-in-R/getting_help_in_R.html#1\nhttps://portal.stats.ox.ac.uk/userdata/ruth/APTS2013/Rcourse1.pdf\nhttps://carpentries-incubator.github.io/r-tidyverse-4-datasets/"
   },
   {
-    "objectID": "slides/00-template/index.html#license",
-    "href": "slides/00-template/index.html#license",
-    "title": "SESSION TITLE",
+    "objectID": "slides/01-intro/index.html#license",
+    "href": "slides/01-intro/index.html#license",
+    "title": "Introduction to R and RStudio",
     "section": "License",
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
-  },
-  {
-    "objectID": "content/06-quarto/index.html",
-    "href": "content/06-quarto/index.html",
-    "title": "Quarto",
-    "section": "",
-    "text": "This page and the slides for this session are still under development"
-  },
-  {
-    "objectID": "content/06-quarto/index.html#slides",
-    "href": "content/06-quarto/index.html#slides",
-    "title": "Quarto",
-    "section": "Slides",
-    "text": "Slides\nHere’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/06-quarto/index.html#resources",
-    "href": "content/06-quarto/index.html#resources",
-    "title": "Quarto",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nTITLE"
-  },
-  {
-    "objectID": "content/04-sim-optim/index.html",
-    "href": "content/04-sim-optim/index.html",
-    "title": "Simulation and Optimisation",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/04-sim-optim/index.html#slides",
-    "href": "content/04-sim-optim/index.html#slides",
-    "title": "Simulation and Optimisation",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/03-programming/index.html",
-    "href": "content/03-programming/index.html",
-    "title": "Programming in R",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/03-programming/index.html#slides",
-    "href": "content/03-programming/index.html#slides",
-    "title": "Programming in R",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/03-programming/index.html#resources",
-    "href": "content/03-programming/index.html#resources",
-    "title": "Programming in R",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nEfficient Programming, from Efficient R by Colin Gillespie and Robin Lovelace\nhttps://csgillespie.github.io/efficientR/programming.html\nChapters on functions and iteration, from R for Data Science by Hadley Wickham and Garrett Grolemund\nhttps://r4ds.had.co.nz/index.html\nhttps://r4ds.had.co.nz/functions.html\nhttps://r4ds.had.co.nz/iteration.html"
   }
 ]
