@@ -8,6 +8,7 @@ listing:
   sort-ui: false
   filter-ui: false
   fields: [date, title]
+  date-format: full
 page-layout: full
 title-block-banner: false
 ---

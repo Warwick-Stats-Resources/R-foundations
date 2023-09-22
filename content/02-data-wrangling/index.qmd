@@ -1,6 +1,6 @@
 ---
 title: Data Types, Structures and Wrangling
-date: 2022-10-17
+date: 2023-10-24
 ---
 
 ## Slides
