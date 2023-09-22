@@ -2,10 +2,8 @@
 title: "Join the class"
 ---
 
-Add any instructions for joining the course here.
+The Microsoft Teams link for joining the class will be sent through the appropriate Department of Statistics mailing lists.
 
-If there are no joining instructions:
+If you are a PhD student, post-doc or member of staff at the University of Warwick and you are interested in attending the course, please contact ella.m.kaye @ warwick.ac.uk for more information.
 
-- delete the `join.qmd` file
-- delete the link to the join page in the 'Session Details' section of `index.qmd`
-- remove the lines in `_quarto.yml` which add a link to this file in the navbar.
+

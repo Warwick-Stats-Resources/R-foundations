@@ -2,35 +2,31 @@
 title: "R Foundations"
 ---
 
-**This is a work-in-progress website.**
+Welcome to the R Foundations course for 2023!
 
-Welcome to the course!
+This course is primarily aimed at first year Statistics PhD students. It has been developed as a prerequisite for those attending the [Academy for PhD Training in Statistics (APTS)](https://warwick.ac.uk/fac/sci/statistics/apts/) to cover the R material that's required for those modules.
 
-This course is aimed primarily at...
+Students and staff at the University of Warwick have the opportunity to take this course online in Term 1. See the [schedule](schedule.qmd) for dates. Details for signing up will be sent round through Department of Statistics mailing lists. Recordings of the sessions will be available afterwards. 
 
-## Syllabus overview
-
-What we're covering...
-
-All slides and further resources can be accessed from the [content](content.qmd) page and also via the [schedule](schedule.qmd). 
+For students at other universities attending APTS, working through the [content](content.qmd) should give you a sufficient grounding to prepare for the R component of the APTS modules. If you would like access to the recordings, you can request them by writing to the email below.
 
 ## Session details
 
-{{< fa calendar >}} &nbsp; **DAY OF COURSE**
+{{< fa calendar >}} &nbsp; **Tuesdays of even weeks, Thursdays of odd weeks**
 
-{{< fa clock >}} &nbsp; **TIME OF COURSE**
-
-{{< fa location-dot >}} &nbsp; **LOCATION** 
+{{< fa clock >}} &nbsp; **10-11:30 on the Tuesdays, 10-11 on the Thursdays**
 
 {{< fa calendar-alt >}} &nbsp; See the full [schedule](schedule.qmd).
+
+{{< fa brands microsoft >}} &nbsp; Microsoft Teams (invitations will be sent to the primarily intended participants, but see also the [join](join.qmd) if you're a member of the Department of Statistics at the University of Warwick and you wish to attend).
 
 Please see the [join](join.qmd) page for more details on how to attend the course.
 
 ## Instructor details
 
-{{< fa user >}} &nbsp; [**INSTRUCTOR**](https://INTSTRUCTOR-WEB-PAGE)
+{{< fa user >}} &nbsp; [**Ella Kaye**](https://warwick.ac.uk/EllaKaye)
 
-{{< fa envelope >}} &nbsp; [**INSTRUCTOR E-MAIL**](mailto:INSTRUCTOR-E-MAIL)
+{{< fa envelope >}} &nbsp; **ella.m.kaye @ warwick.ac.uk**
 
 ## Prerequistes
 
