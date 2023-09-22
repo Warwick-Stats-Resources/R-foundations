@@ -802,7 +802,7 @@
     "href": "content.html",
     "title": "Content",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nOct 10, 2022\n\n\nIntroduction to R and RStudio\n\n\n\n\nOct 17, 2022\n\n\nData Types, Structures and Wrangling\n\n\n\n\nOct 31, 2022\n\n\nProgramming in R\n\n\n\n\nNov 7, 2022\n\n\nSimulation and Optimisation\n\n\n\n\nNov 21, 2022\n\n\nGraphics\n\n\n\n\nNov 28, 2022\n\n\nQuarto\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nTuesday, October 10, 2023\n\n\nIntroduction to R and RStudio\n\n\n\n\nTuesday, October 24, 2023\n\n\nData Types, Structures and Wrangling\n\n\n\n\nTuesday, November 7, 2023\n\n\nProgramming in R\n\n\n\n\nThursday, November 16, 2023\n\n\nQuarto\n\n\n\n\nTuesday, November 21, 2023\n\n\nSimulation and Optimisation\n\n\n\n\nTuesday, December 5, 2023\n\n\nGraphics\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/05-graphics/index.html",
@@ -865,28 +865,21 @@
     "href": "index.html",
     "title": "R Foundations",
     "section": "",
-    "text": "This is a work-in-progress website.\nWelcome to the course!\nThis course is aimed primarily at…"
-  },
-  {
-    "objectID": "index.html#syllabus-overview",
-    "href": "index.html#syllabus-overview",
-    "title": "R Foundations",
-    "section": "Syllabus overview",
-    "text": "Syllabus overview\nWhat we’re covering…\nAll slides and further resources can be accessed from the content page and also via the schedule."
+    "text": "Welcome to the R Foundations course for 2023!\nThis course is primarily aimed at first year Statistics PhD students. It has been developed as a prerequisite for those attending the Academy for PhD Training in Statistics (APTS) to cover the R material that’s required for those modules.\nStudents and staff at the University of Warwick have the opportunity to take this course online in Term 1. See the schedule for dates. Details for signing up will be sent round through Department of Statistics mailing lists. Recordings of the sessions will be available afterwards.\nFor students at other universities attending APTS, working through the content should give you a sufficient grounding to prepare for the R component of the APTS modules. If you would like access to the recordings, you can request them by writing to the email below."
   },
   {
     "objectID": "index.html#session-details",
     "href": "index.html#session-details",
     "title": "R Foundations",
     "section": "Session details",
-    "text": "Session details\n   DAY OF COURSE\n   TIME OF COURSE\n   LOCATION\n   See the full schedule.\nPlease see the join page for more details on how to attend the course."
+    "text": "Session details\n   Tuesdays of even weeks, Thursdays of odd weeks\n   10-11:30 on the Tuesdays, 10-11 on the Thursdays\n   See the full schedule.\n   Microsoft Teams (invitations will be sent to the primarily intended participants, but see also the join if you’re a member of the Department of Statistics at the University of Warwick and you wish to attend).\nPlease see the join page for more details on how to attend the course."
   },
   {
     "objectID": "index.html#instructor-details",
     "href": "index.html#instructor-details",
     "title": "R Foundations",
     "section": "Instructor details",
-    "text": "Instructor details\n   INSTRUCTOR\n   INSTRUCTOR E-MAIL"
+    "text": "Instructor details\n   Ella Kaye\n   ella.m.kaye @ warwick.ac.uk"
   },
   {
     "objectID": "index.html#prerequistes",
@@ -963,7 +956,7 @@
     "href": "join.html",
     "title": "Join the class",
     "section": "",
-    "text": "Add any instructions for joining the course here.\nIf there are no joining instructions:\n\ndelete the join.qmd file\ndelete the link to the join page in the ‘Session Details’ section of index.qmd\nremove the lines in _quarto.yml which add a link to this file in the navbar."
+    "text": "The Microsoft Teams link for joining the class will be sent through the appropriate Department of Statistics mailing lists.\nIf you are a PhD student, post-doc or member of staff at the University of Warwick and you are interested in attending the course, please contact ella.m.kaye @ warwick.ac.uk for more information."
   },
   {
     "objectID": "slides/06-quarto/index.html#disclaimer",
