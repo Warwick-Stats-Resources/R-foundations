@@ -2,8 +2,12 @@
 title: "Join the class"
 ---
 
-The Microsoft Teams link for joining the class will be sent through the appropriate Department of Statistics mailing lists.
+Information about joining the class has been sent through the appropriate Department of Statistics mailing lists.
 
-If you are a PhD student, post-doc or member of staff at the University of Warwick and you are interested in attending the course, please contact ella.m.kaye @ warwick.ac.uk for more information.
+The sign-up form is at <https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/kaye/r-foundations-signup/>. 
+
+For members of the Department of Statistics, invitations to the online Teams meetings will be sent within 5 days of signing up for the course, and no later than October 9th. 
+
+If you are a PhD student, post-doc or member of staff at the University of Warwick in a department other that Statistics and you would like to attend the course, in addition to filling in the form, please send an email to ella.m.kaye @ warwick.ac.uk outlining the reason for your interest and, space permitting, you will receive links to the Teams sessions on October 9th.
 
 
