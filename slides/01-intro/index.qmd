@@ -4,7 +4,7 @@ subtitle: R Foundations Course
 author: Ella Kaye | Department of Statistics | University of Warwick
 title-slide-attributes:
   data-background-color: "#552D62"
-date: 2022-10-10
+date: 2023-10-10
 date-format: long
 format: 
   warwickpres-revealjs:
@@ -73,20 +73,32 @@ format:
 
 ::: columns
 ::: {.column width="50%"}
-#### base
+#### 15 base packages
 
 -   Create R objects
 -   Summaries
 -   Maths functions
+-   Statistics
+-   Graphics
+-   Datasets
+
 :::
 
 ::: {.column width="50%"}
-#### recommended
+#### 15 recommended packages
 
--   Statistics
--   Graphics
--   Example data
+- Statistics methodology
+- More maths
+- More graphics
 :::
+:::
+
+::: {.notes}
+R is distributed with fifteen "base packages": base, compiler, datasets, grDevices, graphics, grid, methods, parallel, splines, stats, stats4, tcltk, tools, translations, and utils.
+
+In addition, there are fifteen "recommended packages" from CRAN which are included with binary distributions of R: KernSmooth, MASS, Matrix, boot, class, cluster, codetools, foreign, lattice, mgcv, nlme, nnet, rpart, spatial, and survival.
+
+https://en.wikipedia.org/wiki/R_package#Base_and_recommended_packages
 :::
 
 ## The R Ecosystem
@@ -99,7 +111,7 @@ format:
 
 -   Official R repository
 -   <https://cran.r-project.org>
--   nearly 19000 packages
+-   nearly 20000 packages
 :::
 
 ::: {.column width="50%"}
@@ -122,6 +134,8 @@ The [tidyverse](https://www.tidyverse.org) is an opinionated collection of R pac
 
 ![From <https://education.rstudio.com/blog/2020/07/teaching-the-tidyverse-in-2020-part-1-getting-started/>](images/tidyverse-packages.png){fig-align="center"}
 
+**tidyverse** 2.0.0. includes **lubridate** for date-times as well (not shown in image).
+
 ## palmerpenguins
 
 -   [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins/) is a dataset package, designed to be a great example for data exploration and visualisation.
@@ -136,7 +150,7 @@ Another reason to love R is the community around it.
 
 It prides itself on being friendly, diverse, helpful, and supportive.
 
--   [R user groups](https://benubah.github.io/r-community-explorer/rugs.html){target="_blank"}, especially [Warwick RUG](https://warwickrug.github.io/wrug_website/index.html){target="_blank"}
+-   [R user groups](https://benubah.github.io/r-community-explorer/rugs.html){target="_blank"}, especially [Warwick RUG](https://warwickrug.github.io){target="_blank"}
 
 -   [RLadies](https://rladies.org){target="_blank"}, especially [RLadies Coventry](https://www.meetup.com/rladies-coventry/){target="_blank"}
 
@@ -144,9 +158,9 @@ It prides itself on being friendly, diverse, helpful, and supportive.
 
 -   [R for Data Science](https://www.rfordatasci.com){target="_blank"}
 
--   [#RStats](https://twitter.com/hashtag/rstats){target="_blank"} and [#TidyTuesday](https://twitter.com/hashtag/TidyTuesday){target="_blank"} on twitter
+-  #RStats and #TidyTuesday on Mastodon
 
--   [RainbowR](https://rainbowr.netlify.app){target="_blank"} (LGBTQ+)
+-   [rainbowR](https://rainbowr.netlify.app){target="_blank"} (LGBTQ+)
 
 -   [MiR](https://mircommunity.com){target="_blank"} (minorities in R)
 
@@ -224,7 +238,7 @@ Code can be sent directly from a script to the console as follows:
 -   <kbd>Ctrl</kbd>/<kbd title = "command">⌘</kbd> + <kbd>Shift</kbd> + <kbd title = "enter">↵</kbd> or <img src="images/source_button.png" alt="Source button" height="50px" style="vertical-align: middle;"/>
     -   Run the script from start to finish.
 
-## Why R scripts
+## Why R scripts?
 
 Writing an R script for an analysis has several advantages over a graphical user interface (GUI)
 
@@ -237,6 +251,7 @@ Writing an R script for an analysis has several advantages over a graphical user
 Organising your R script well will help you and others understand and use it.
 
 -   Add comment or two at start to describe purpose of script
+    - Use one or more `#` to start a comment
 -   Load required data and packages at the start
 -   Avoid hard-coding: define variables such as file paths early on
 -   Give functions and variable meaningful names
@@ -332,7 +347,7 @@ browseVignettes("package_name")
 ?package::
 ```
 
-`dplyr` demo
+**dplyr** demo
 
 RStudio Help home demo
 
@@ -410,12 +425,14 @@ It passes what comes before into the first argument of what comes after.
 
 Pipes are a powerful tool for clearly expressing a sequence of multiple operations.
 
+We'll talk more about pipes in the data wrangling session.
+
 ## What's the mean bill length, by species?
 
 ```{r}
 penguins |>
-  group_by(species) |>
-  summarise(mean_bill_length = mean(bill_length_mm, na.rm = TRUE))
+  summarise(mean_bill_length = mean(bill_length_mm, na.rm = TRUE),
+            .by = species)
 ```
 
 ## What's the relationship between bill length and depth? {.smaller80}
