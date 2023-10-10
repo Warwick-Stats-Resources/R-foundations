@@ -882,6 +882,13 @@
     "text": "Your turn\n\nCreate an R project called “R-foundations”\nInstall the packages palmerpenguins and tidyverse\nFind the help page for the penguins dataset\nFind the help page for the filter function in the dplyr package\nExperiment typing commands into the console or in an R script.\n\nlink to slides"
   },
   {
+    "objectID": "slides/01-intro/index.html#getting-help-at-warwick",
+    "href": "slides/01-intro/index.html#getting-help-at-warwick",
+    "title": "Introduction to R and RStudio",
+    "section": "Getting help at Warwick",
+    "text": "Getting help at Warwick\nDuring the course\n\nClinic hours: Thursday 10-11 in weeks 3, 5 and 9.\n\nIn general\n\nThe Warwick R Users Viva Engage"
+  },
+  {
     "objectID": "slides/01-intro/index.html#the-data",
     "href": "slides/01-intro/index.html#the-data",
     "title": "Introduction to R and RStudio",
