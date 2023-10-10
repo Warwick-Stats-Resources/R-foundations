@@ -95,7 +95,7 @@
     "href": "content/01-intro/index.html#resources",
     "title": "Introduction to R and RStudio",
     "section": "Resources",
-    "text": "Resources\n\nR and RStudio\n\nRStudio IDE cheatsheet (11th one down)\nhttps://www.rstudio.com/resources/cheatsheets/\nBeginner resourses from the RStudio Education team\nhttps://education.rstudio.com/learn/beginner/\nIntroduction to R and RStudio from the Carpentries\nhttps://carpentries-incubator.github.io/r-tidyverse-4-datasets/01-project-introduction.html\n\n\n\nPackages\n\ntidyverse\nhttps://www.tidyverse.org\npalmerpenguins\nhttps://allisonhorst.github.io/palmerpenguins/index.html"
+    "text": "Resources\n\nR and RStudio\n\nRStudio IDE cheatsheet\nhttps://rstudio.github.io/cheatsheets/html/rstudio-ide.html\nBeginner resources from the RStudio Education team\nhttps://education.rstudio.com/learn/beginner/\nIntroduction to R and RStudio from the Carpentries\nhttps://carpentries-incubator.github.io/r-tidyverse-4-datasets/01-project-introduction.html\n\n\n\nPackages\n\ntidyverse\nhttps://www.tidyverse.org\npalmerpenguins\nhttps://allisonhorst.github.io/palmerpenguins/index.html"
   },
   {
     "objectID": "content/02-data-wrangling/index.html",
@@ -851,7 +851,7 @@
     "href": "slides/01-intro/index.html#r-script-demo",
     "title": "Introduction to R and RStudio",
     "section": "R script demo",
-    "text": "R script demo\n### load libraries\nlibrary(palmerpenguins)\nlibrary(tidyverse)\n\n### Inspect data\nView(penguins)\nglimpse(penguins)\nhead(penguins)\nsummary(penguins)"
+    "text": "R script demo\n### load packages\nlibrary(palmerpenguins)\nlibrary(tidyverse)\n\n### Inspect data\nView(penguins)\nglimpse(penguins)\nhead(penguins)\nsummary(penguins)"
   },
   {
     "objectID": "slides/01-intro/index.html#within-r-help-with-functions",
@@ -865,7 +865,7 @@
     "href": "slides/01-intro/index.html#within-r-help.search",
     "title": "Introduction to R and RStudio",
     "section": "Within R: help.search",
-    "text": "Within R: help.search\n\n# when ?function_name fails (e.g. don't have library loaded)\nhelp.search(\"function_name\") # note quotation marks\n??function_name\n\n# for when you can't quite remember the function name\n??something_like_function_name\n\n# R help start page\nhelp.start()\n## note that using the RStudio Help home button gives even more resources"
+    "text": "Within R: help.search\n\n# when ?function_name fails (e.g. don't have package loaded)\nhelp.search(\"function_name\") # note quotation marks\n??function_name\n\n# for when you can't quite remember the function name\n??something_like_function_name\n\n# R help start page\nhelp.start()\n## note that using the RStudio Help home button gives even more resources"
   },
   {
     "objectID": "slides/01-intro/index.html#within-r-help-with-package",
