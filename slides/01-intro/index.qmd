@@ -173,6 +173,7 @@ It prides itself on being friendly, diverse, helpful, and supportive.
 ## With script
 
 ![](images/RStudio-project-with-script.png)
+[RStudio cheatsheet](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html?_gl=1*1dh948z*_ga*NTcyMTExOTUuMTY5MzY0MjE3Mw..*_ga_2C0WZ1JHG0*MTY5NjkyNjc5Mi43LjAuMTY5NjkyNjc5Mi4wLjAuMA..)
 
 ## Best practice: use R projects
 
@@ -257,20 +258,6 @@ Organising your R script well will help you and others understand and use it.
 -   Give functions and variable meaningful names
 -   use `###` or `#---` to separate sections (in RStudio Code \> Insert Section)
 
-## R script demo
-
-``` r
-### load libraries
-library(palmerpenguins)
-library(tidyverse)
-
-### Inspect data
-View(penguins)
-glimpse(penguins)
-head(penguins)
-summary(penguins)
-```
-
 ## Installing packages
 
 *In console*
@@ -292,6 +279,20 @@ summary(penguins)
 *In script*
 
 -   Load packages with `library(package_name)`
+
+## R script demo
+
+``` r
+### load libraries
+library(palmerpenguins)
+library(tidyverse)
+
+### Inspect data
+View(penguins)
+glimpse(penguins)
+head(penguins)
+summary(penguins)
+```
 
 # Getting help in R {.inverse}
 
