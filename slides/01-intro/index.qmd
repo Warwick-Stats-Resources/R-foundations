@@ -365,6 +365,16 @@ RStudio Help home demo
 
 link to [slides](https://warwick-stats-resources.github.io/R-foundations/slides/01-intro/#/title-slide){target="_blank"}
 
+## Getting help at Warwick
+
+### During the course
+
+- Clinic hours: Thursday 10-11 in weeks 3, 5 and 9.
+
+### In general
+
+- The [Warwick R Users Viva Engage](https://web.yammer.com/main/org/warwick.ac.uk/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMTk5MzIzODczMjgifQ/all)
+
 # {#penguin-questions data-menu-title="What can we learn about penguins?" background-image="images/gentoo.jpeg"}
 
 :::: {.columns}
