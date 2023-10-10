@@ -173,7 +173,7 @@ It prides itself on being friendly, diverse, helpful, and supportive.
 ## With script
 
 ![](images/RStudio-project-with-script.png)
-[RStudio cheatsheet](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html?_gl=1*1dh948z*_ga*NTcyMTExOTUuMTY5MzY0MjE3Mw..*_ga_2C0WZ1JHG0*MTY5NjkyNjc5Mi43LjAuMTY5NjkyNjc5Mi4wLjAuMA..)
+[RStudio cheatsheet](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html)
 
 ## Best practice: use R projects
 
@@ -283,7 +283,7 @@ Organising your R script well will help you and others understand and use it.
 ## R script demo
 
 ``` r
-### load libraries
+### load packages
 library(palmerpenguins)
 library(tidyverse)
 
@@ -319,7 +319,7 @@ View(function_name)
 ## Within R: `help.search`
 
 ```{r eval = FALSE}
-# when ?function_name fails (e.g. don't have library loaded)
+# when ?function_name fails (e.g. don't have package loaded)
 help.search("function_name") # note quotation marks
 ??function_name
 

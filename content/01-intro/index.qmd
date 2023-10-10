@@ -16,11 +16,11 @@ Here are the slides embedded:
 
 ### R and RStudio
 
-- RStudio IDE cheatsheet (11th one down)
+- RStudio IDE cheatsheet
 
-  <https://www.rstudio.com/resources/cheatsheets/>
+  <https://rstudio.github.io/cheatsheets/html/rstudio-ide.html>
   
-- Beginner resourses from the RStudio Education team
+- Beginner resources from the RStudio Education team
 
   <https://education.rstudio.com/learn/beginner/>
   
