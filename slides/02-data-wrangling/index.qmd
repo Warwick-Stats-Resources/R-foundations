@@ -1,10 +1,11 @@
+
 ---
 title: Data Types, Structures and Wrangling
 subtitle: R Foundations Course
 author: Ella Kaye | Department of Statistics | University of Warwick
 title-slide-attributes:
   data-background-color: "#552D62"
-date: 2022-10-17
+date: 2023-10-24
 date-format: long
 format: 
   warwickpres-revealjs:
@@ -73,7 +74,7 @@ Object names cannot:
     other.people.use.periods
     evenOthersUseCamelCase
 
-`snake_case` is preferred in R, especially in the tidyverse.
+The tidyverse has popularised the use of `snake_case`. Camel case is a better option for screen readers. The use of periods is discouraged because periods have other uses in R.
 
 ## bad
 
@@ -146,7 +147,7 @@ In R, the main types of structures are
 
 -   data frames
 
-Focus today on vectors, factors and data frames
+Focus today on vectors, factors and data frames.
 
 ## Vectors
 
@@ -204,11 +205,20 @@ x[x > 4]
 
 - Look at the help page for the `rep()` function: `?rep`
 
-- Starting with the vector `c(1,3,6)`, can you make the following patterns:
+- Starting with the vector `x <- c(1,3,6)`, can you make the following patterns:
 
   - 1, 3, 6, 1, 3, 6
   - 1, 1, 3, 3, 6, 6
   - 1, 1, 3, 3, 6, 6, 1, 1, 3, 3, 6, 6
+  
+- What does `rep(x, 2, 2)` give? Is it what you expected? Can you explain the output?
+  
+::: {.notes}
+rep(x, 2) or rep(x, times = 2)
+rep(x, each = 2)
+rep(x, 2, each = 2)
+rep(x, 2, 2) is rep(x, times = 2, length.out = 2)
+:::
 
 ## Factors
 
@@ -296,7 +306,7 @@ I leave you in the extremely capable hand of Danielle Navarro to take you thorou
 
 <https://djnavarro.net/slides-project-structure/#1>
 
-I also HIGHLY recommend you check out the [**here**](https://here.r-lib.org){target="_blank"} package, which enables easy file referencing in [project-oriented workflows](https://rstats.wtf/project-oriented-workflow.html){target="_blank"}
+I also HIGHLY recommend you check out the [**here**](https://here.r-lib.org){target="_blank"} package, which enables easy file referencing in [project-oriented workflows](https://rstats.wtf/project-oriented-workflow.html){target="_blank"}.
 
 ## Import data (code)
 
@@ -315,7 +325,11 @@ See `?rio` for the underlying functions used for each format and the correspondi
 
 ## Import data demo
 
+Show both button (in Environment and from the file itself) and code
+
 - From file
+
+  - `data/penguins_lter.csv`
 
 - From URL 
 
@@ -546,10 +560,20 @@ penguins |>
 penguins |>
   group_by(species, sex) |>
   filter(!is.na(sex)) |>
-  summarise(mean = mean(body_mass_g, na.rm = TRUE)) # give column a name
+  summarise(mean = mean(body_mass_g, na.rm = TRUE)) |>  # give column a name
+  ungroup() # best practice after group_by()
 ```
 
-## Example 3: count
+## Example 3
+
+```{r}
+penguins |>
+  filter(!is.na(sex)) |>
+  summarise(mean = mean(body_mass_g, na.rm = TRUE),
+            .by = c(species, sex)) # new in dplyr 1.1.0, note the `.`
+```
+
+## Example 4: count
 
 ```{r}
 penguins |>
@@ -561,10 +585,13 @@ Shortcut for
 ```{r}
 #| eval: false
 penguins |>
-  group_by(species, island) %>%
-  summarise(n = n())
+  summarise(n = n(), .by = c(species, island))
 ```
 
+:::
+
+::: {.notes}
+count() and summarise(n = n()) give different orderings  
 :::
 
 ## Your turn!
