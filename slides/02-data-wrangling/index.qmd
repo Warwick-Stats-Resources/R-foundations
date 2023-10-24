@@ -486,6 +486,16 @@ paste("a", "b", "c")
 
 Different placeholder (`.` vs `_`) and with native pipe need a named argument
 
+## Pipe keyboard shortcut
+
+There is an RStudio shortcut for the pipe which also puts spaces around it: 
+
+<kbd>Ctrl</kbd>/<kbd title = "Command">⌘</kbd> + <kbd title = "Shift">⇧</kbd> + <kbd>M</kbd>.
+
+This can be set to either `%>%` or `|>` in the RStudio preferences.
+
+Go to Tools -> Global Options -> Code and check/uncheck box for "Use native pipe operator".
+
 ## `arrange()`: change the ordering of rows
 
 ::: panel-tabset
