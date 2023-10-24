@@ -945,6 +945,13 @@
     "text": "Pipes: key difference\nSo far, so good, but what if we want to pipe into a subsequent argument?\n\nExample 1Example 2\n\n\n\nlog(2, 10) ## don't need to name the argument\n\n[1] 0.30103\n\n10 %&gt;% log(2, .)\n\n[1] 0.30103\n\n10 |&gt; log(2, base = _)\n\n[1] 0.30103\n\n\n\n\n\npaste(\"a\", \"b\", \"c\")\n\n[1] \"a b c\"\n\n\"b\" %&gt;% paste(\"a\", ., \"c\")\n\n[1] \"a b c\"\n\n\"b\" |&gt; paste(\"a\", ..2 = _, \"c\")\n\n[1] \"a b c\"\n\n\n\n\n\nDifferent placeholder (. vs _) and with native pipe need a named argument"
   },
   {
+    "objectID": "slides/02-data-wrangling/index.html#pipe-keyboard-shortcut",
+    "href": "slides/02-data-wrangling/index.html#pipe-keyboard-shortcut",
+    "title": "Data Types, Structures and Wrangling",
+    "section": "Pipe keyboard shortcut",
+    "text": "Pipe keyboard shortcut\nThere is an RStudio shortcut for the pipe which also puts spaces around it:\nCtrl/⌘ + ⇧ + M.\nThis can be set to either %&gt;% or |&gt; in the RStudio preferences.\nGo to Tools -&gt; Global Options -&gt; Code and check/uncheck box for “Use native pipe operator”."
+  },
+  {
     "objectID": "slides/02-data-wrangling/index.html#arrange-change-the-ordering-of-rows",
     "href": "slides/02-data-wrangling/index.html#arrange-change-the-ordering-of-rows",
     "title": "Data Types, Structures and Wrangling",
