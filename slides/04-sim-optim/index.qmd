@@ -4,7 +4,7 @@ subtitle: R Foundations Course
 author: Ella Kaye | Department of Statistics | University of Warwick
 title-slide-attributes:
   data-background-color: "#552D62"
-date: 2022-11-07
+date: 2023-11-21
 date-format: long
 format: 
   warwickpres-revealjs:
@@ -90,9 +90,9 @@ For more information, see e.g.
 -   Use `set.seed()` to repeat the same sequence of random numbers.
 
 ## Random number generators in R
--   There are various different generators available. R will use the one in use at the start of your session unless you alter it, even if you delete `.Random.seed`. For safety, you can specify the kind on calls to set.seed. Use `set.seed(n, kind="default")` to ensure you are using R's default.
--   It is possible to save and restore `.Random.seed` within your functions, but take care with scope (see next term!).
-- Note that random number generation changed in R version 4.0.0, so you might get different outputs even with the same seed when using versions before and after this release.
+-   There are various different generators available. R will use the one in use at the start of your session unless you alter it, even if you delete `.Random.seed`. For safety, you can specify the kind on calls to `set.seed`. Use `set.seed(n, kind="default")` to ensure you are using R's default.
+-   It is possible to save and restore `.Random.seed` within your functions, but take care with scope.
+- Note that random number generation changed in R version 4.0.0, so you might get different outputs even with the same seed when using versions before and after that release.
 
 ## `set.seed()` example
 
@@ -242,15 +242,16 @@ To obtain a sample of size `n`, use the `r` function for the distribution with t
 
 [Table from <https://www.johndcook.com/blog/distributions_r_splus/>]{.smaller60}
 
-## Your yurn!
+## Your turn!
 
 Sometimes `sample()` can lead to nasty surprises.
 
-Consider the following code. Which line might cause a problem?
+Consider the following code. Which line(s) might cause a problem?
 
 ```{r}
 #| eval: false
 x <- 1:10
+sample(x[x > 7])
 sample(x[x > 8])
 sample(x[x > 9])
 sample(x[x > 10])
@@ -263,7 +264,7 @@ Run the code to see what happens.
 :::{.callout-warning}
 You need to be careful when using `sample()` programmatically (i.e. in your function or simulation).
 
-See `?sample` for a safer version and check you understand how the proposed `resample()` function works.
+See `?sample` for a safer version and check you understand how the proposed `resample()` function in the examples works.
 :::
 
 # Optimisation {.inverse}
@@ -271,7 +272,7 @@ See `?sample` for a safer version and check you understand how the proposed `res
 ## The optimisation problem
 
 -   Given a function $f(x)$, what value of $x$ makes $f(x)$ as small or large as possible?
--   In a statistical context, $x$ will usually be the parameters of a model, and $f(x)$ either the model likelihood to be maximised or some measure of discrepancy between data and predictions to be minimised.
+-   In a statistical context, $x$ will usually be the parameters of a model, and $f(x)$ either the model likelihood to be maximised or some measure of discrepancy between data and predictions to be minimised
 -   The optimal set of parameters will give the *best fit*
 -   Only need to consider *small* as $-f(x)$ is *large* when $f(x)$ is *small*.
 -   We consider here *general-purpose optimisers*
@@ -318,7 +319,7 @@ Note how the (fixed) parameter `a` is passed into `f`.
 
 -   Accuracy can be set using the `tol` argument
 
--   Note the order of arguments: \`optimize(f, interval, ..., lower, upper, maximum, tol)
+-   Note the order of arguments: `optimize(f, interval, ..., lower, upper, maximum, tol)`
 
 -   The `...` can be named or unnamed and will be passed to `f`
 
@@ -337,7 +338,7 @@ Note how the (fixed) parameter `a` is passed into `f`.
 -   Algorithm of choice depends on how easy it is to calculate derivatives for the function. Usually better to supply a function to calculate derivatives, but may be unnecessary extra work.
 -   Ensure the problem is scaled so that unit change in any parameter gives approximately unit change in objective.
 
-## `optim()` M=methods
+## `optim()` methods
 
 ::: panel-tabset
 ## Nelder-Mead
@@ -415,7 +416,7 @@ There are very many. The most important are:
 | `maxit`    | Maximum number of iterations to be performed. May be used to terminate unsuccessful attempts. Also used to perform one or two steps if convergence is unimportant |
 | `type`     | Used to select formula for "CG" method                                                                                                                            |
 
-## `optim()`: Components of Return Value
+## `optim()`: components of return value
 
 |               |                                                                                                                                      |
 |--------------|----------------------------------------------------------|
@@ -451,9 +452,13 @@ ggplot() +
 
 ```
 
-- Use `optim()` to find a global minimum
+- Use `optimise()` to find a global minimum
 
-- Use `optim()` again to improve locally (aiming for -15.81515)
+- Use `optimise()` again to improve locally (aiming for an objective of 67.46773).
+
+::: {.notes}
+this occurs when `$minimum` x = -15.81515   
+:::
 
 
 ## Your turn! Q2
