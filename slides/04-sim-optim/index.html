@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Ella Kaye | Department of Statistics | University of Warwick">
-  <meta name="dcterms.date" content="2022-11-07">
+  <meta name="dcterms.date" content="2023-11-21">
   <title>R Foundations - Simulation and Optimisation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -404,7 +404,7 @@ Ella Kaye | Department of Statistics | University of Warwick
 </div>
 </div>
 
-  <p class="date">November 7, 2022</p>
+  <p class="date">November 21, 2023</p>
 </section>
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
@@ -492,9 +492,9 @@ Ella Kaye | Department of Statistics | University of Warwick
 <section id="random-number-generators-in-r" class="slide level2">
 <h2>Random number generators in R</h2>
 <ul>
-<li>There are various different generators available. R will use the one in use at the start of your session unless you alter it, even if you delete <code>.Random.seed</code>. For safety, you can specify the kind on calls to set.seed. Use <code>set.seed(n, kind="default")</code> to ensure you are using R’s default.</li>
-<li>It is possible to save and restore <code>.Random.seed</code> within your functions, but take care with scope (see next term!).</li>
-<li>Note that random number generation changed in R version 4.0.0, so you might get different outputs even with the same seed when using versions before and after this release.</li>
+<li>There are various different generators available. R will use the one in use at the start of your session unless you alter it, even if you delete <code>.Random.seed</code>. For safety, you can specify the kind on calls to <code>set.seed</code>. Use <code>set.seed(n, kind="default")</code> to ensure you are using R’s default.</li>
+<li>It is possible to save and restore <code>.Random.seed</code> within your functions, but take care with scope.</li>
+<li>Note that random number generation changed in R version 4.0.0, so you might get different outputs even with the same seed when using versions before and after that release.</li>
 </ul>
 </section>
 <section id="set.seed-example" class="slide level2">
@@ -502,7 +502,7 @@ Ella Kaye | Department of Statistics | University of Warwick
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu">sample</span>(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1]  5  3  8  2  1 10  7  4  6  9</code></pre>
+<pre><code> [1]  4 10  3  2  8  1  7  5  6  9</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">set.seed</span>(<span class="dv">1</span>)</span>
 <span id="cb9-2"><a href="#cb9-2"></a><span class="fu">sample</span>(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -780,15 +780,16 @@ Ella Kaye | Department of Statistics | University of Warwick
 </table>
 <p><span class="smaller60">Table from <a href="https://www.johndcook.com/blog/distributions_r_splus/" class="uri">https://www.johndcook.com/blog/distributions_r_splus/</a></span></p>
 </section>
-<section id="your-yurn" class="slide level2">
-<h2>Your yurn!</h2>
+<section id="your-turn" class="slide level2">
+<h2>Your turn!</h2>
 <p>Sometimes <code>sample()</code> can lead to nasty surprises.</p>
-<p>Consider the following code. Which line might cause a problem?</p>
+<p>Consider the following code. Which line(s) might cause a problem?</p>
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1"></a>x <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span></span>
-<span id="cb29-2"><a href="#cb29-2"></a><span class="fu">sample</span>(x[x <span class="sc">&gt;</span> <span class="dv">8</span>])</span>
-<span id="cb29-3"><a href="#cb29-3"></a><span class="fu">sample</span>(x[x <span class="sc">&gt;</span> <span class="dv">9</span>])</span>
-<span id="cb29-4"><a href="#cb29-4"></a><span class="fu">sample</span>(x[x <span class="sc">&gt;</span> <span class="dv">10</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb29-2"><a href="#cb29-2"></a><span class="fu">sample</span>(x[x <span class="sc">&gt;</span> <span class="dv">7</span>])</span>
+<span id="cb29-3"><a href="#cb29-3"></a><span class="fu">sample</span>(x[x <span class="sc">&gt;</span> <span class="dv">8</span>])</span>
+<span id="cb29-4"><a href="#cb29-4"></a><span class="fu">sample</span>(x[x <span class="sc">&gt;</span> <span class="dv">9</span>])</span>
+<span id="cb29-5"><a href="#cb29-5"></a><span class="fu">sample</span>(x[x <span class="sc">&gt;</span> <span class="dv">10</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Run the code to see what happens.</p>
 <div class="fragment">
@@ -799,7 +800,7 @@ Ella Kaye | Department of Statistics | University of Warwick
 </div>
 <div class="callout-content">
 <p>You need to be careful when using <code>sample()</code> programmatically (i.e.&nbsp;in your function or simulation).</p>
-<p>See <code>?sample</code> for a safer version and check you understand how the proposed <code>resample()</code> function works.</p>
+<p>See <code>?sample</code> for a safer version and check you understand how the proposed <code>resample()</code> function in the examples works.</p>
 </div>
 </div>
 </div>
@@ -814,7 +815,7 @@ Ella Kaye | Department of Statistics | University of Warwick
 <h2>The optimisation problem</h2>
 <ul>
 <li>Given a function <span class="math inline">\(f(x)\)</span>, what value of <span class="math inline">\(x\)</span> makes <span class="math inline">\(f(x)\)</span> as small or large as possible?</li>
-<li>In a statistical context, <span class="math inline">\(x\)</span> will usually be the parameters of a model, and <span class="math inline">\(f(x)\)</span> either the model likelihood to be maximised or some measure of discrepancy between data and predictions to be minimised.</li>
+<li>In a statistical context, <span class="math inline">\(x\)</span> will usually be the parameters of a model, and <span class="math inline">\(f(x)\)</span> either the model likelihood to be maximised or some measure of discrepancy between data and predictions to be minimised</li>
 <li>The optimal set of parameters will give the <em>best fit</em></li>
 <li>Only need to consider <em>small</em> as <span class="math inline">\(-f(x)\)</span> is <em>large</em> when <span class="math inline">\(f(x)\)</span> is <em>small</em>.</li>
 <li>We consider here <em>general-purpose optimisers</em></li>
@@ -869,7 +870,7 @@ $objective
 <li><p>An interval within which to search must be specified, either by <code>interval</code> or by <code>upper</code> and <code>lower</code></p></li>
 <li><p>To <em>maximise</em> set <code>maximum = TRUE</code></p></li>
 <li><p>Accuracy can be set using the <code>tol</code> argument</p></li>
-<li><p>Note the order of arguments: `optimize(f, interval, …, lower, upper, maximum, tol)</p></li>
+<li><p>Note the order of arguments: <code>optimize(f, interval, ..., lower, upper, maximum, tol)</code></p></li>
 <li><p>The <code>...</code> can be named or unnamed and will be passed to <code>f</code></p></li>
 <li><p>Arguments after the <code>...</code> must be specified by names.</p></li>
 <li><p><code>optimize</code> returns a list with two items:</p>
@@ -889,8 +890,8 @@ $objective
 <li>Ensure the problem is scaled so that unit change in any parameter gives approximately unit change in objective.</li>
 </ul>
 </section>
-<section id="optim-mmethods" class="slide level2">
-<h2><code>optim()</code> M=methods</h2>
+<section id="optim-methods" class="slide level2">
+<h2><code>optim()</code> methods</h2>
 <div class="panel-tabset">
 <ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Nelder-Mead</a></li><li><a href="#tabset-2-2">BFGS</a></li><li><a href="#tabset-2-3">CG</a></li><li><a href="#tabset-2-4">L-BFGS-B</a></li><li><a href="#tabset-2-5">SANN</a></li><li><a href="#tabset-2-6">Brent</a></li></ul>
 <div class="tab-content">
@@ -1025,7 +1026,7 @@ $objective
 </table>
 </section>
 <section id="optim-components-of-return-value" class="slide level2">
-<h2><code>optim()</code>: Components of Return Value</h2>
+<h2><code>optim()</code>: components of return value</h2>
 <table>
 <colgroup>
 <col style="width: 19%">
@@ -1068,9 +1069,22 @@ $objective
 </div>
 
 <img data-src="index_files/figure-revealjs/unnamed-chunk-14-1.png" width="1920" class="r-stretch quarto-figure-center"><ul>
-<li><p>Use <code>optim()</code> to find a global minimum</p></li>
-<li><p>Use <code>optim()</code> again to improve locally (aiming for -15.81515)</p></li>
+<li><p>Use <code>optimise()</code> to find a global minimum</p></li>
+<li><p>Use <code>optimise()</code> again to improve locally (aiming for an objective of 67.46773).</p></li>
 </ul>
+<aside class="notes">
+<p>this occurs when <code>$minimum</code> x = -15.81515</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="your-turn-q2" class="slide level2">
 <h2>Your turn! Q2</h2>

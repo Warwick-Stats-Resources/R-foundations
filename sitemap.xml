@@ -2,74 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/r-foundations/content/06-quarto/index.html</loc>
-    <lastmod>2023-10-24T08:33:54.503Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/content/01-intro/index.html</loc>
-    <lastmod>2023-10-24T08:33:53.743Z</lastmod>
+    <lastmod>2023-10-30T16:03:21.877Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/r-foundations/content/04-sim-optim/index.html</loc>
-    <lastmod>2023-10-24T08:33:52.951Z</lastmod>
+    <lastmod>2023-10-30T16:03:20.229Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/r-foundations/content/02-data-wrangling/index.html</loc>
-    <lastmod>2023-10-24T08:33:52.195Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/prerequisites.html</loc>
-    <lastmod>2023-10-24T08:33:51.291Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/06-quarto/index.html</loc>
-    <lastmod>2023-10-24T08:33:49.959Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/01-intro/index.html</loc>
-    <lastmod>2023-10-24T08:33:47.543Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/04-sim-optim/index.html</loc>
-    <lastmod>2023-10-24T08:33:44.719Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/02-data-wrangling/index.html</loc>
-    <lastmod>2023-10-24T08:33:42.635Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/join.html</loc>
-    <lastmod>2023-10-24T08:33:39.399Z</lastmod>
+    <lastmod>2023-10-30T16:03:19.425Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/r-foundations/schedule.html</loc>
-    <lastmod>2023-10-24T08:33:39.879Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/00-template/index.html</loc>
-    <lastmod>2023-10-24T08:33:43.047Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/05-graphics/index.html</loc>
-    <lastmod>2023-10-24T08:33:46.419Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/03-programming/index.html</loc>
-    <lastmod>2023-10-24T08:33:49.195Z</lastmod>
+    <lastmod>2023-10-30T16:03:18.557Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/r-foundations/content.html</loc>
-    <lastmod>2023-10-24T08:33:50.831Z</lastmod>
+    <lastmod>2023-10-30T16:03:17.677Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/03-programming/index.html</loc>
+    <lastmod>2023-10-30T16:03:15.913Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/05-graphics/index.html</loc>
+    <lastmod>2023-10-30T16:03:13.749Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/01-intro/index.html</loc>
+    <lastmod>2023-10-30T16:03:10.321Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/prerequisites.html</loc>
+    <lastmod>2023-10-30T16:03:04.193Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/02-data-wrangling/index.html</loc>
+    <lastmod>2023-10-30T16:03:08.057Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/04-sim-optim/index.html</loc>
+    <lastmod>2023-10-30T16:03:12.073Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/00-template/index.html</loc>
+    <lastmod>2023-10-30T16:03:14.141Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/slides/06-quarto/index.html</loc>
+    <lastmod>2023-10-30T16:03:16.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/join.html</loc>
+    <lastmod>2023-10-30T16:03:18.061Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/r-foundations/index.html</loc>
-    <lastmod>2023-10-24T08:33:51.799Z</lastmod>
+    <lastmod>2023-10-30T16:03:18.993Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/r-foundations/content/01-intro/index.html</loc>
+    <lastmod>2023-10-30T16:03:19.821Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/r-foundations/content/05-graphics/index.html</loc>
-    <lastmod>2023-10-24T08:33:53.323Z</lastmod>
+    <lastmod>2023-10-30T16:03:20.657Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/r-foundations/content/03-programming/index.html</loc>
-    <lastmod>2023-10-24T08:33:54.139Z</lastmod>
+    <lastmod>2023-10-30T16:03:21.473Z</lastmod>
   </url>
 </urlset>
