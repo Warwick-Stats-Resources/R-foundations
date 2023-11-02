@@ -4,7 +4,7 @@ subtitle: R Foundations Course
 author: Ella Kaye | Department of Statistics | University of Warwick
 title-slide-attributes:
   data-background-color: "#552D62"
-date: 2022-11-21
+date: 2023-12-05
 date-format: long
 format: 
   warwickpres-revealjs:
@@ -135,7 +135,7 @@ From <https://r4ds.had.co.nz/data-visualisation.html>:
 
 ## ggplot2 usage
 
--   ggplot2 is part of the tidyverse.
+-   **ggplot2** is part of the tidyverse.
 
 -   It has been around for over 10 years and is used by hundreds of thousands of people.
 
@@ -149,7 +149,7 @@ Every ggplot2 plot has three key components:
 
 -   A set of aesthetic mappings between variables in the data and visual properties, and
 
--   At least one layer which describes how to render each observation. Layers are usually created with a geom function.
+-   At least one layer which describes how to render each observation. Layers are usually created with a `geom_` function.
 
 ## Cake!
 
@@ -367,7 +367,7 @@ ggplot(data = penguins,
 
 Recreate the base R plots from the first part of this session in ggplot2.
 
-You may find the list of available geoms (and there help pages) useful:
+You may find the list of available geoms (and their help pages) useful:
 
 <https://ggplot2.tidyverse.org/reference/index.html#layers>
 
@@ -430,7 +430,7 @@ Check out the galleries of these data viz practitioners working with `ggplot2`:
 
 -   [Nicole Rennie](https://nrennie.rbind.io){target="_blank"}
 
-Also, #TidyTuesday on Twitter or Mastodon is a great source for further inspiration
+Also, #TidyTuesday on Mastodon is a great source for further inspiration
 
 ## ggplot2 resources
 
@@ -444,7 +444,7 @@ Also, #TidyTuesday on Twitter or Mastodon is a great source for further inspirat
 
 -   [Cedric Scherer's tutorial](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
 
--   [Cedric Scherer's 'Graphic Design with ggplot2' workshop](https://rstudio-conf-2022.github.io/ggplot2-graphic-design/)
+-   [Cedric Scherer's 'Engaging and Beautiful Data Visualizations with ggplot2' workshop](https://posit-conf-2023.github.io/dataviz-ggplot2/)
 
 -   [ggplot2 reference](https://ggplot2.tidyverse.org)
 
@@ -466,7 +466,7 @@ Back and forward arrows allow you to navigate through graphs that have been plot
 
 Plots can be saved in various formats using the Export drop down menu, which also has an option to copy to the clipboard.
 
-DEMO
+**DEMO**
 
 # Tables {background-color="#552D62"}
 
@@ -507,27 +507,27 @@ knitr::include_graphics("images/gt-penguins.png")
 
 ## Resources
 
-See the article [Case Study: gtcars](https://gt.rstudio.com/articles/case-study-gtcars.html) for a thorough example of gt's capabilities.
+See the article [Case Study: gtcars](https://gt.rstudio.com/articles/case-study-gtcars.html) for a thorough example of **gt**'s capabilities.
 
-See also Albert Rapp's [book on gt](https://gt.albert-rapp.de).
+See also Albert Rapp's [book on **gt**](https://gt.albert-rapp.de).
 
 
 ## Guidelines for better tables
 
 Having the technical know-how to code tables is one thing, making them look good and such that the reader can easily read the data is another!
 
-*Highly* recommend this [Tom Mock guide](https://themockup.blog/posts/2020-09-04-10-table-rules-in-r/), based on Jon Schwabish's original. It covers guidelines for making better tables, and shows how to implement them in gt. It demonstrates even more of what gt can do than the article on the previous slide.
+*Highly* recommend this [Tom Mock guide](https://themockup.blog/posts/2020-09-04-10-table-rules-in-r/), based on Jon Schwabish's original. It covers guidelines for making better tables, and shows how to implement them in **gt**. It demonstrates even more of what gt can do than the article on the previous slide.
 
 ## gtsummary
 
-[gtsummary](http://www.danieldsjoberg.com/gtsummary/) extends the gt package and is used for summarising tables and working with statistical model summaries.
+[**gtsummary**](http://www.danieldsjoberg.com/gtsummary/) extends the **gt** package and is used for summarising tables and working with statistical model summaries.
 
 ## gtsummary example 1: data
 
 ```{r}
 library(gtsummary)
 # make dataset with a few variables to summarize
-trial2 <- trial %>% select(age, grade, response, trt)
+trial2 <- trial |> select(age, grade, response, trt)
 
 head(trial2)
 ```
@@ -536,16 +536,16 @@ head(trial2)
 ## gtsummary example 1: code
 
 ```{r}
-# summarize and augment the data with our package
+# summarize and augment the data
 summary_table <- 
   tbl_summary(
     trial2,
     by = trt, # split table by group
     missing = "no" # don't list missing data separately
-  ) %>%
-  add_n() %>% # add column with total number of non-missing observations
-  add_p() %>% # test for a difference between groups
-  modify_header(label = "**Variable**") %>% # update the column header
+  )  |> 
+  add_n() |> # add column with total number of non-missing observations
+  add_p() |> # test for a difference between groups
+  modify_header(label = "**Variable**") |> # update the column header
   bold_labels() 
 ```
 
@@ -576,11 +576,11 @@ regression_tab
 
 The winners of the RStudio Table Contest
 
+- [2022](https://posit.co/blog/winners-of-the-2022-table-contest/) 
+
 - [2021](https://posit.co/blog/winners-of-the-2021-table-contest/)
 
 - [2020](https://www.rstudio.com/blog/winners-of-the-2020-rstudio-table-contest/), also has links to tutorials
-
-The 2022 contest is open! [Application guidelines](https://www.rstudio.com/blog/rstudio-table-contest-2022/)
 
 
 # End matter {.inverse}
