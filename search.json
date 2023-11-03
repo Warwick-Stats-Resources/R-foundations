@@ -872,7 +872,7 @@
     "href": "content/05-graphics/index.html#resources",
     "title": "Graphics",
     "section": "Resources",
-    "text": "Resources\n\nReading\n\nggplot2: Elegant Graphics for Data Analysis\nhttps://ggplot2-book.org\n\n\n\nPackages\n\nggplot2\nhttps://ggplot2.tidyverse.org"
+    "text": "Resources\n\nReading\n\nggplot2: Elegant Graphics for Data Analysis (for an in-depth understanding)\nR for Data Science book: Chapters 3: Data Visualisation and 28: Graphics for Communication, to get up and running quickly\nPlotting anything with ggplot2 webinar with Thomas Lin Pederson (one of the main ggplot2 authors)\nR graphics cookbook, a practical guide that provides more than 150 recipes to help you generate high-quality graphs quickly\nCedric Scherer’s tutorial\nCedric Scherer’s ‘Engaging and Beautiful Data Visualizations with ggplot2’ workshop\nggplot2 reference\n\n\n\nPackages\n\nggplot2\nhttps://ggplot2.tidyverse.org\ngt\nhttps://gt.rstudio.com\ngtsummary\nhttps://www.danieldsjoberg.com/gtsummary/"
   },
   {
     "objectID": "content/06-quarto/index.html",
