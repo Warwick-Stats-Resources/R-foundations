@@ -4,7 +4,7 @@ subtitle: R Foundations Course
 author: Ella Kaye | Department of Statistics | University of Warwick
 title-slide-attributes:
   data-background-color: "#552D62"
-date: 2022-11-28
+date: 2023-11-16
 date-format: long
 format: 
   warwickpres-revealjs:
@@ -374,7 +374,7 @@ subtitle: R Foundations course
 author: Ella Kaye | Department of Statistics | University of Warwick
 title-slide-attributes:
   data-background-color: "#552D62"
-date: 2022-11-28
+date: 2023-11-16
 date-format: long
 format: 
   revealjs:
@@ -389,22 +389,65 @@ format:
 
 - [Official guide](https://quarto.org/docs/presentations/)
 
-- [Slidecraft 101](https://www.emilhvitfeldt.com/categories/slidecraft-101/) by Emil Hvitfeldt
+- [Slidecraft 101](https://emilhvitfeldt.com/blog#category=slidecraft%20101) by Emil Hvitfeldt
 
   - Colours and Fonts
   - Code and Output
+  - Theme variants
+  - Advanced slide themes
+  - 7 tips and tricks
 
 # Demo {background-color="#552D62"}
 
+# Publishing {.inverse}
+
+## Web publishing venues
+
+| Destination                            | Description                                                                                                                                                                                     |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Quarto Pub](quarto-pub.qmd)           | Publishing service for Quarto documents, websites, and books.                                         |
+| [GitHub Pages](github-pages.qmd)       | Publish content based on source code managed within a GitHub repository.                              |     
+| [Posit Connect](rstudio-connect.qmd) | Publishing platform for secure sharing of data products within an organization.  |
+| [Netlify](netlify.qmd)                 | Professional web publishing platform.                         | 
+| [Confluence](confluence.qmd)         | Publishing platform for supporting team collaboration.  
+
+... and more.
+
+## Quarto Pub
+
+Visit <https://quartopub.com/> and set up a free account.
+
+:::{style="text-align: center"}
+![](images/quartopub.png)
+:::
+
+## `quarto publish`
+
+\
+\
+
+At the Terminal, run:
+
+\
+
+:::{style="font-size: 2em"}
+```bash
+quarto publish <document>
+```
+:::
+
+
 ## Resources
 
-- <https://quarto.org>
+- <https://quarto.org>: The official documentation
 
-- [Awesome Quarto](https://github.com/mcanouil/awesome-quarto)
+- [Awesome Quarto](https://github.com/mcanouil/awesome-quarto): A curated list of Quarto talks, tools, examples & articles
 
 - [Beautiful Reports and Persentations with Quarto](https://thomasmock.quarto.pub/reports-presentations/#/title-slide)
 
 - [Getting Started with Quarto workshop website](https://rstudio-conf-2022.github.io/get-started-quarto/)
+
+- [Quarto for R and RStudio workshop](https://posit-conf-2023.github.io/quarto-r/)
 
 
 # End matter {.inverse}
