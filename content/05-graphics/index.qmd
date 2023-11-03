@@ -16,9 +16,20 @@ Here are the slides embedded:
 
 ### Reading
 
-- ggplot2: Elegant Graphics for Data Analysis
+- [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org) (for an in-depth understanding)
+  
+-   [R for Data Science book](https://r4ds.had.co.nz/index.html): Chapters [3: Data Visualisation](https://r4ds.had.co.nz/data-visualisation.html) and [28: Graphics for Communication](https://r4ds.had.co.nz/graphics-for-communication.html), to get up and running quickly
 
-  <https://ggplot2-book.org>
+-   [Plotting anything with ggplot2 webinar](https://www.youtube.com/watch?v=h29g21z0a68) with Thomas Lin Pederson (one of the main ggplot2 authors)
+
+-   [R graphics cookbook](https://r-graphics.org), a practical guide that provides more than 150 recipes to help you generate high-quality graphs quickly
+
+-   [Cedric Scherer's tutorial](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)
+
+-   [Cedric Scherer's 'Engaging and Beautiful Data Visualizations with ggplot2' workshop](https://posit-conf-2023.github.io/dataviz-ggplot2/)
+
+-   [ggplot2 reference](https://ggplot2.tidyverse.org)
+
 
 
 ### Packages
@@ -26,3 +37,11 @@ Here are the slides embedded:
 - ggplot2
 
   <https://ggplot2.tidyverse.org>
+  
+- gt
+
+  <https://gt.rstudio.com>
+  
+- gtsummary
+
+  <https://www.danieldsjoberg.com/gtsummary/>
