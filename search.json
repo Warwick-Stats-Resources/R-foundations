@@ -879,21 +879,21 @@
     "href": "content/06-quarto/index.html",
     "title": "Quarto",
     "section": "",
-    "text": "This page and the slides for this session are still under development"
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
   },
   {
     "objectID": "content/06-quarto/index.html#slides",
     "href": "content/06-quarto/index.html#slides",
     "title": "Quarto",
-    "section": "Slides",
-    "text": "Slides\nHere’s a link to the slides in a new window.\nHere are the slides embedded:"
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
   },
   {
     "objectID": "content/06-quarto/index.html#resources",
     "href": "content/06-quarto/index.html#resources",
     "title": "Quarto",
     "section": "Resources",
-    "text": "Resources\n\nReading\n\nTITLE"
+    "text": "Resources\n\nReading\n\nhttps://quarto.org: The official documentation\nAwesome Quarto: A curated list of Quarto talks, tools, examples & articles\nBeautiful Reports and Persentations with Quarto\nGetting Started with Quarto workshop website\nQuarto for R and RStudio workshop"
   },
   {
     "objectID": "content/01-intro/index.html",
@@ -1460,21 +1460,42 @@
     "href": "slides/06-quarto/index.html#this-quarto-presentation",
     "title": "Quarto",
     "section": "This Quarto presentation",
-    "text": "This Quarto presentation\n---\ntitle: Quarto\nsubtitle: R Foundations course\nauthor: Ella Kaye | Department of Statistics | University of Warwick\ntitle-slide-attributes:\n  data-background-color: \"#552D62\"\ndate: 2022-11-28\ndate-format: long\nformat: \n  revealjs:\n    theme: [default, ../../slides.scss]\n    slide-number: true\n    execute:\n      echo: true\n---"
+    "text": "This Quarto presentation\n---\ntitle: Quarto\nsubtitle: R Foundations course\nauthor: Ella Kaye | Department of Statistics | University of Warwick\ntitle-slide-attributes:\n  data-background-color: \"#552D62\"\ndate: 2023-11-16\ndate-format: long\nformat: \n  revealjs:\n    theme: [default, ../../slides.scss]\n    slide-number: true\n    execute:\n      echo: true\n---"
   },
   {
     "objectID": "slides/06-quarto/index.html#more-on-quarto-presentations",
     "href": "slides/06-quarto/index.html#more-on-quarto-presentations",
     "title": "Quarto",
     "section": "More on Quarto presentations",
-    "text": "More on Quarto presentations\n\nOfficial guide\nSlidecraft 101 by Emil Hvitfeldt\n\nColours and Fonts\nCode and Output"
+    "text": "More on Quarto presentations\n\nOfficial guide\nSlidecraft 101 by Emil Hvitfeldt\n\nColours and Fonts\nCode and Output\nTheme variants\nAdvanced slide themes\n7 tips and tricks"
+  },
+  {
+    "objectID": "slides/06-quarto/index.html#web-publishing-venues",
+    "href": "slides/06-quarto/index.html#web-publishing-venues",
+    "title": "Quarto",
+    "section": "Web publishing venues",
+    "text": "Web publishing venues\n\n\n\nDestination\nDescription\n\n\n\n\nQuarto Pub\nPublishing service for Quarto documents, websites, and books.\n\n\nGitHub Pages\nPublish content based on source code managed within a GitHub repository.\n\n\nPosit Connect\nPublishing platform for secure sharing of data products within an organization.\n\n\nNetlify\nProfessional web publishing platform.\n\n\nConfluence\nPublishing platform for supporting team collaboration.\n\n\n\n… and more."
+  },
+  {
+    "objectID": "slides/06-quarto/index.html#quarto-pub",
+    "href": "slides/06-quarto/index.html#quarto-pub",
+    "title": "Quarto",
+    "section": "Quarto Pub",
+    "text": "Quarto Pub\nVisit https://quartopub.com/ and set up a free account."
+  },
+  {
+    "objectID": "slides/06-quarto/index.html#quarto-publish",
+    "href": "slides/06-quarto/index.html#quarto-publish",
+    "title": "Quarto",
+    "section": "quarto publish",
+    "text": "quarto publish\n\n\n\nAt the Terminal, run:\n\n\n\nquarto publish &lt;document&gt;"
   },
   {
     "objectID": "slides/06-quarto/index.html#resources",
     "href": "slides/06-quarto/index.html#resources",
     "title": "Quarto",
     "section": "Resources",
-    "text": "Resources\n\nhttps://quarto.org\nAwesome Quarto\nBeautiful Reports and Persentations with Quarto\nGetting Started with Quarto workshop website"
+    "text": "Resources\n\nhttps://quarto.org: The official documentation\nAwesome Quarto: A curated list of Quarto talks, tools, examples & articles\nBeautiful Reports and Persentations with Quarto\nGetting Started with Quarto workshop website\nQuarto for R and RStudio workshop"
   },
   {
     "objectID": "slides/06-quarto/index.html#resources-1",
