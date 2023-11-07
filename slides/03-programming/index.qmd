@@ -330,7 +330,7 @@ The final unnamed argument is the default. [Further examples](https://www.datame
 
 ## `for`
 
-A for loop repeats a chunk of code, iterating along the values of a 
+A `for` loop repeats a chunk of code, iterating along the values of a 
 vector or list
 
 ```{r}
