@@ -564,7 +564,7 @@
     "href": "slides/03-programming/index.html#name-and-order-of-arguments",
     "title": "Programming in R",
     "section": "Name and order of arguments",
-    "text": "Name and order of arguments\nThe user can pass objects to these arguments using their names or by supplying unnamed values in the right order\n\nrnorm(5, 1, 10)\n\n[1] -13.559585  -1.910334  13.714305   1.657067  -4.810038\n\nrnorm(5, sd = 10)\n\n[1]  -5.679198  11.889172 -22.535179  10.676651   2.402609\n\n\nSo naming and order is important! Some guidelines\n\nput compulsory arguments first, e.g. data\nput rarely used arguments last, e.g. tolerance setting\nuse short but meaningful argument names\nif relevant, use the same argument names as similar functions"
+    "text": "Name and order of arguments\nThe user can pass objects to these arguments using their names or by supplying unnamed values in the right order\n\nrnorm(5, 1, 10)\n\n[1]   1.1648809  -0.2815949  17.0627133 -13.0602562 -15.1622605\n\nrnorm(5, sd = 10)\n\n[1]   4.335067 -14.128370  -7.472567  -5.245040 -14.021370\n\n\nSo naming and order is important! Some guidelines\n\nput compulsory arguments first, e.g. data\nput rarely used arguments last, e.g. tolerance setting\nuse short but meaningful argument names\nif relevant, use the same argument names as similar functions"
   },
   {
     "objectID": "slides/03-programming/index.html#using-arguments",
