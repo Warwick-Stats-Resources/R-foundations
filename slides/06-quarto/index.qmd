@@ -60,7 +60,7 @@ We learned from 10 years of literate programming with `knitr` + `rmarkdown`
 
 . . .
 
-For the R Training course, we'll focus on R and RStudio
+For the R Foundations course, we'll focus on R and RStudio
 
 ## So what is Quarto?
 
@@ -242,8 +242,7 @@ ggplot(airquality, aes(Temp, Ozone)) +
     library(ggplot2)
     ggplot(airquality, aes(Temp, Ozone)) + 
       geom_point() + 
-      geom_smooth(method = "loess"
-    )
+      geom_smooth(method = "loess")
     ```
 
 ## Metadata: YAML
