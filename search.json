@@ -1306,7 +1306,7 @@
     "href": "slides/06-quarto/index.html#for-everyone",
     "title": "Quarto",
     "section": "For everyone",
-    "text": "For everyone\n\nWorks with R, Python, Julia, Observable JS\nknitr and jupyter engines\nWorks in RStudio, Jupyter Notebooks, VS Code\n\n\nFor the R Training course, we’ll focus on R and RStudio"
+    "text": "For everyone\n\nWorks with R, Python, Julia, Observable JS\nknitr and jupyter engines\nWorks in RStudio, Jupyter Notebooks, VS Code\n\n\nFor the R Foundations course, we’ll focus on R and RStudio"
   },
   {
     "objectID": "slides/06-quarto/index.html#so-what-is-quarto-1",
@@ -1404,7 +1404,7 @@
     "href": "slides/06-quarto/index.html#literate-programming",
     "title": "Quarto",
     "section": "Literate programming",
-    "text": "Literate programming\nLiterate programming is writing out the program logic in a human language with included (separated by a primitive markup) code snippets and macros. - Wikipedia\n---\ntitle: \"ggplot2 demo\"\ndate: \"5/22/2021\"\nformat: html\n---\n\n## Air Quality\n\nThere is a relationship between temperature and the ozone level.\n\n```{r}\n#| label: fig-airquality\nlibrary(ggplot2)\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n```"
+    "text": "Literate programming\nLiterate programming is writing out the program logic in a human language with included (separated by a primitive markup) code snippets and macros. - Wikipedia\n---\ntitle: \"ggplot2 demo\"\ndate: \"5/22/2021\"\nformat: html\n---\n\n## Air Quality\n\nThere is a relationship between temperature and the ozone level.\n\n```{r}\n#| label: fig-airquality\nlibrary(ggplot2)\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n```"
   },
   {
     "objectID": "slides/06-quarto/index.html#metadata-yaml-1",
