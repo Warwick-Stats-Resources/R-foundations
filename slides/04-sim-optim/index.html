@@ -502,7 +502,7 @@ Ella Kaye | Department of Statistics | University of Warwick
 <div class="cell" data-layout-align="center">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu">sample</span>(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code> [1]  4 10  3  2  8  1  7  5  6  9</code></pre>
+<pre><code> [1]  5 10  1  8  3  4  6  7  9  2</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">set.seed</span>(<span class="dv">1</span>)</span>
 <span id="cb9-2"><a href="#cb9-2"></a><span class="fu">sample</span>(<span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1069,8 +1069,8 @@ $objective
 </div>
 
 <img data-src="index_files/figure-revealjs/unnamed-chunk-14-1.png" width="1920" class="r-stretch quarto-figure-center"><ul>
-<li><p>Use <code>optimise()</code> to find a global minimum</p></li>
-<li><p>Use <code>optimise()</code> again to improve locally (aiming for an objective of 67.46773).</p></li>
+<li><p>Use <code>optim()</code> to find an approximate global minimum</p></li>
+<li><p>Use <code>optim()</code> again to improve locally (aiming for an objective of 67.46773).</p></li>
 </ul>
 <aside class="notes">
 <p>this occurs when <code>$minimum</code> x = -15.81515</p>
@@ -1093,7 +1093,7 @@ $objective
 <li><p>Copy this code for the <code>fn</code> and <code>gr</code></p></li>
 </ul>
 <div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1"></a>fr <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {   </span>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1"></a>fn <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {   </span>
 <span id="cb33-2"><a href="#cb33-2"></a>    x1 <span class="ot">&lt;-</span> x[<span class="dv">1</span>]</span>
 <span id="cb33-3"><a href="#cb33-3"></a>    x2 <span class="ot">&lt;-</span> x[<span class="dv">2</span>]</span>
 <span id="cb33-4"><a href="#cb33-4"></a>    <span class="dv">100</span> <span class="sc">*</span> (x2 <span class="sc">-</span> x1 <span class="sc">*</span> x1)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="dv">1</span> <span class="sc">-</span> x1)<span class="sc">^</span><span class="dv">2</span></span>
@@ -1107,7 +1107,7 @@ $objective
 <span id="cb33-12"><a href="#cb33-12"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
-<li>Experiment with the <code>optim()</code> function to see which methods converge</li>
+<li>Using a start value of <code>c(0, 0)</code>, experiment with the <code>optim()</code> function to see which methods converge</li>
 </ul>
 </section></section>
 <section>
