@@ -443,8 +443,9 @@ fw <- function (x) {
 
 library(ggplot2)
 ggplot() +
-  xlim(-50, 50) +
+  xlim(-40, 40) +
   geom_function(fun = fw, n = 500) +
+  #scale_x_continuous(breaks = seq(-50, 50, 10))
   ylab(NULL) +  
   theme_minimal() +
   theme(text = element_text(size = 24))
