@@ -195,7 +195,7 @@ table(samp)
 
 Many statistical distributions are built into R. Each has a root name, e.g. `norm` for the normal distribution.
 
-There are four functions for each distribution, with different letters prefixing the room name:
+There are four functions for each distribution, with different letters prefixing the root name:
 
 -   `p` for *probability*, the cumulative distribution function
 -   `q` for *quantile*, the inverse c.d.f.
@@ -462,7 +462,7 @@ this occurs when `$minimum` x = -15.81515
 :::
 
 
-## Your turn! Q2
+## Your turn! Q2 {.smaller90}
 
 - Take a look at the introduction to the Wikipedia page for [Rosenbrock's banana function](https://en.wikipedia.org/wiki/Rosenbrock_function){target="_blank"}
 
