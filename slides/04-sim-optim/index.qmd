@@ -452,9 +452,9 @@ ggplot() +
 
 ```
 
-- Use `optimise()` to find a global minimum
+- Use `optim()` to find an approximate global minimum
 
-- Use `optimise()` again to improve locally (aiming for an objective of 67.46773).
+- Use `optim()` again to improve locally (aiming for an objective of 67.46773).
 
 ::: {.notes}
 this occurs when `$minimum` x = -15.81515   
@@ -468,7 +468,7 @@ this occurs when `$minimum` x = -15.81515
 - Copy this code for the `fn` and `gr`
 
 ```{r}
-fr <- function(x) {   
+fn <- function(x) {   
     x1 <- x[1]
     x2 <- x[2]
     100 * (x2 - x1 * x1)^2 + (1 - x1)^2
@@ -482,7 +482,7 @@ gr <- function(x) {
 }
 ```
 
-- Experiment with the `optim()` function to see which methods converge
+- Using a start value of `c(0, 0)`, experiment with the `optim()` function to see which methods converge
 
 # End matter {.inverse}
 
