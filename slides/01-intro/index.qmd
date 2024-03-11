@@ -13,7 +13,6 @@ format:
       code-overflow: wrap
 ---
 
-
 ## Overview
 
 -   Why use R?
@@ -32,8 +31,7 @@ format:
 
 ## What can R do? {.smaller90}
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 -   Data import
 
@@ -59,13 +57,7 @@ format:
 
 -   Packages: share your code and use others
 :::
-
-::::
-
-
-
-
-
+:::
 
 ## The R Ecosystem
 
@@ -81,19 +73,18 @@ format:
 -   Statistics
 -   Graphics
 -   Datasets
-
 :::
 
 ::: {.column width="50%"}
 #### 15 recommended packages
 
-- Statistics methodology
-- More maths
-- More graphics
+-   Statistics methodology
+-   More maths
+-   More graphics
 :::
 :::
 
-::: {.notes}
+::: notes
 R is distributed with fifteen "base packages": base, compiler, datasets, grDevices, graphics, grid, methods, parallel, splines, stats, stats4, tcltk, tools, translations, and utils.
 
 In addition, there are fifteen "recommended packages" from CRAN which are included with binary distributions of R: KernSmooth, MASS, Matrix, boot, class, cluster, codetools, foreign, lattice, mgcv, nlme, nnet, rpart, spatial, and survival.
@@ -158,7 +149,7 @@ It prides itself on being friendly, diverse, helpful, and supportive.
 
 -   [R for Data Science](https://www.rfordatasci.com){target="_blank"}
 
--  #RStats and #TidyTuesday on Mastodon
+-   #RStats and #TidyTuesday on Mastodon
 
 -   [rainbowR](https://rainbowr.netlify.app){target="_blank"} (LGBTQ+)
 
@@ -172,8 +163,7 @@ It prides itself on being friendly, diverse, helpful, and supportive.
 
 ## With script
 
-![](images/RStudio-project-with-script.png)
-[RStudio cheatsheet](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html)
+![](images/RStudio-project-with-script.png) [RStudio cheatsheet](https://rstudio.github.io/cheatsheets/html/rstudio-ide.html)
 
 ## Best practice: use R projects
 
@@ -252,7 +242,7 @@ Writing an R script for an analysis has several advantages over a graphical user
 Organising your R script well will help you and others understand and use it.
 
 -   Add comment or two at start to describe purpose of script
-    - Use one or more `#` to start a comment
+    -   Use one or more `#` to start a comment
 -   Load required data and packages at the start
 -   Avoid hard-coding: define variables such as file paths early on
 -   Give functions and variable meaningful names
@@ -264,13 +254,13 @@ Organising your R script well will help you and others understand and use it.
 
 -   Install a package with `install.packages("package_name")`
 
-    - Watch out for the plural!
+    -   Watch out for the plural!
 
 -   Install multiple packages with `install.packages(c("package1", "package2"))`
 
-    - The `c()` function creates a vector
+    -   The `c()` function creates a vector
 
--   Or use install button in packages pane: 
+-   Or use install button in packages pane:
 
 ![](images/install_packages.png){width="400" fig-align="center"}
 
@@ -370,30 +360,26 @@ link to [slides](https://warwick-stats-resources.github.io/R-foundations/slides/
 
 ### During the course
 
-- Clinic hours: Thursday 10-11 in weeks 3, 5 and 9.
+-   Clinic hours: Thursday 10-11 in weeks 3, 5 and 9.
 
 ### In general
 
-- The [Warwick R Users Viva Engage](https://web.yammer.com/main/org/warwick.ac.uk/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMTk5MzIzODczMjgifQ/all)
+-   The [Warwick R Users Viva Engage](https://web.yammer.com/main/org/warwick.ac.uk/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMTk5MzIzODczMjgifQ/all)
 
-# {#penguin-questions data-menu-title="What can we learn about penguins?" background-image="images/gentoo.jpeg"}
+#  {#penguin-questions data-menu-title="What can we learn about penguins?" background-image="images/gentoo.jpeg"}
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 [What can we learn about penguins?]{#penguin-slide-text}
 :::
 
 ::: {.column width="50%"}
 :::
+:::
 
-::::
+## The data
 
-
-
-## The data 
-
-:::{.smaller90}
+::: smaller90
 ```{r}
 #| message: false
 library(palmerpenguins)
@@ -430,7 +416,7 @@ penguins |>
 
 ## The native pipe
 
-`|>` is a pipe. 
+`|>` is a pipe.
 
 It passes what comes before into the first argument of what comes after.
 
@@ -455,7 +441,7 @@ penguins |>
 
 ### plot 1
 
-![](`r knitr::fig_chunk("bill-no-species", "png")`){width="80%"}
+![](%60r%20knitr::fig_chunk(%22bill-no-species%22,%20%22png%22)%60){width="80%"}
 
 ### code 1
 
@@ -477,7 +463,7 @@ ggplot(data = penguins,
 
 ### plot 2
 
-![](`r knitr::fig_chunk("bill-species", "png")`){width="80%"} 
+![](%60r%20knitr::fig_chunk(%22bill-species%22,%20%22png%22)%60){width="80%"}
 
 ### code 2
 
@@ -521,18 +507,17 @@ This is an illustration of [Simpson's Paradox](https://en.wikipedia.org/wiki/Sim
 
 Material inspired by and remixed from:
 
-- <https://www.heatherturner.net/teaching/zero-to-hero/#1>
+-   <https://www.heatherturner.net/teaching/zero-to-hero/#1>
 
-- <https://ellakaye.github.io/Rladies-Coventry-getting-help-in-R/getting_help_in_R.html#1>
+-   <https://ellakaye.github.io/Rladies-Coventry-getting-help-in-R/getting_help_in_R.html#1>
 
-- <https://portal.stats.ox.ac.uk/userdata/ruth/APTS2013/Rcourse1.pdf>
+-   <https://portal.stats.ox.ac.uk/userdata/ruth/APTS2013/Rcourse1.pdf>
 
-- <https://carpentries-incubator.github.io/r-tidyverse-4-datasets/>
+-   <https://carpentries-incubator.github.io/r-tidyverse-4-datasets/>
 
 ## License
 
 Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){target="_blank"}).
-
 
 ```{=html}
 <!-- needs to be last chunk of presentation otherwise creates an extra slide -->
@@ -582,5 +567,4 @@ div.callout-warning.callout-style-default .callout-title {
 }
 </style>
 ```
-
 
